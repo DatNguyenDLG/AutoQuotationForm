@@ -1,0 +1,910 @@
+﻿Code,Name,Address,City,Service Zone Code
+GM002,Cty TNHH Draeger Medical Việt Nam,"41-43 Nguyễn Cơ Thạch, P An Lợi Đông, Tp Thủ Đức",HỒ CHÍ MINH,MD SOUTH
+H01128,BỆNH VIỆN ĐA KHOA LONG AN,"211 Nguyễn Thông, phường 3, thành phố Tân An, tỉnh Long An",Long An,MD MEKONG
+H01901,BỆNH VIỆN RĂNG HÀM MẶT THÀNH PHỐ HỒ CHÍ MINH,"263-265 Trần Hưng Đạo, phường Cô Giang, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+DL01001_1,CÔNG TY TNHH THƯƠNG MẠI VÀ CÔNG NGHỆ KỸ THUẬT TNT,"5-A2 Nguyễn Khánh Toàn, Phường Dịch Vọng Hậu",HÀ NỘI,MD NORTH
+H00008,BỆNH VIỆN ĐA KHOA HÀ NỘI - CAO BẰNG,"Tổ 11, phường Sông Bằng, thành phố Cao Bằng",CAO BẰNG,MD NORTH
+H00010,BỆNH VIỆN ĐA KHOA NHẬT TÂN,"32 Phạm Ngọc Thạch, Tổ 14, Khóm Châu Long 7, Phường Châu Phú B, thành phố Châu Đốc",AN GIANG,MD MEKONG
+H00012,BỆNH VIỆN ĐA KHOA HẠNH PHÚC AN GIANG,"234 Trần Hưng Đạo, phường Mỹ Thới, thành phố Long Xuyên",AN GIANG,MD MEKONG
+H00033,BỆNH VIỆN ĐA KHOA VẠN PHƯỚC,"42 Cách Mạng Tháng Tám, phường Long Hương, thành phố Bà Rịa",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00038,TRUNG TÂM Y TẾ HUYỆN TÂN THÀNH,"Đường 81, khu phố Vạn Hạnh, thị trấn Phú Mỹ, huyện Tân Thành",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00041,TRUNG TÂM Y TẾ HUYỆN XUYÊN MỘC,"Số 338, quốc lộ 55, khu phố Thạnh Sơn, thị trấn Phước Bửu, huyện Xuyên Mộc",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00044,TRUNG TÂM Y TẾ HUYỆN TÂN YÊN,"Thị trấn cao Thượng, huyện Tân Yên, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00060,TRUNG TÂM Y TẾ HUYỆN YÊN DŨNG,"Tổ dân phố 5, thị trấn Nham Biền, huyện Yên Dũng, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00064,TRUNG TÂM Y TẾ HUYỆN HIỆP HÒA," Tổ dân phố số 3, thị trấn Thắng, huyện Hiệp Hòa, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00076,SỞ Y TẾ TỈNH BẮC KẠN," Tổ 7, phường Đức Xuân, thành phố Bắc Kạn, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00087,THẨM MỸ VIỆN PAMAS,"21B Phạm Đình Hổ, phường Phạm Đình Hổ, quận Hai Bà Trưng",HÀ NỘI,MD NORTH
+H00094,TRUNG TÂM Y TẾ THỊ XÃ GIÁ RAI,"Đường Trần Văn Sớm, phường 1, thị xã Giá Rai, tỉnh Bạc Liêu",BẠC LIÊU,MD MEKONG
+H00107,TRUNG TÂM Y TẾ HUYỆN QUẾ VÕ,"Thôn Đỉnh, thị trấn Phố Mới, huyện Quế Võ, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00108,TRUNG TÂM Y TẾ HUYỆN TIÊN DU," Xã Liên Bão, huyện Tiên Du, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00110,TRUNG TÂM Y TẾ HUYỆN YÊN PHONG,"Thị trấn Chờ, huyện Yên Phong, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00114,TRUNG TÂM Y TẾ THỊ XÃ TỪ SƠN,"Phường Đồng Nguyên, thành phố Từ Sơn, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00127,TRUNG TÂM Y TẾ HUYỆN GIA BÌNH,"Số 2 đường Gia Định, thị trấn Gia Bình, huyện Gia Bình, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00128,TRUNG TÂM Y TẾ HUYỆN LƯƠNG TÀI,"Đường Hàn Thuyên, thị trấn Thứa, huyện Lương Tài, tỉnh Bắc Ninh ",BẮC NINH,MD NORTH
+H00129,TRUNG TÂM Y TẾ HUYỆN THUẬN THÀNH,"Phường Gia Đông, thị xã Thuận Thành, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00146,BỆNH VIỆN ĐA KHOA HUYỆN THẠCH THẤT,"Đường 420, xã Kim Quan, huyện Thạch Thất, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00249,BỆNH VIỆN PHỔI TỈNH BÌNH THUẬN,"03B Nguyễn Hội, phường Phú Trinh, thành phố Phan Thiết",BÌNH THUẬN,MD SOUTH
+H00261,TRUNG TÂM Y TẾ HUYỆN HÀM THUẬN NAM,"Đường Lê Duẩn, thị trấn Thuận Nam, huyện Hàm Thuận Nam",BÌNH THUẬN,MD SOUTH
+H00267,TRUNG TÂM Y TẾ HUYỆN NGA SƠN,"Tiểu khu 3, thị trấn Nga Sơn, huyện Nga Sơn, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00279,TRUNG TÂM Y TẾ HUYỆN NGỌC HIỂN,"Khóm 7, thị trấn Rạch Gốc, huyện Ngọc Hiển, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00281,BỆNH VIỆN ĐA KHOA ĐẦM DƠI,"Khóm 5, thị trấn Đầm Dơi, huyện Đầm Dơi, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00283,BỆNH VIỆN ĐA KHOA TRẦN VĂN THỜI,"Khóm 7, thị trấn Trần Văn Thời, huyện Trần Văn Thời, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00312,BỆNH VIỆN MẮT - RĂNG HÀM MẶT CẦN THƠ,"39 Nguyễn Trãi, phường An Hội, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00316,BỆNH VIỆN TIM MẠCH THÀNH PHỐ CẦN THƠ,"204 Trần Hưng Đạo, phường An Nghiệp, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00332,BỆNH VIỆN ĐA KHOA HUYỆN THIỆU HOÁ,"TK. Ba Chè, thị trấn Thiệu Hoá, huyện Thiệu Hóa, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H00336,TRUNG TÂM Y TẾ HUYỆN TRIỆU SƠN,"Phố Tân Minh, thị trấn Triệu Sơn, huyện Triệu Sơn, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00381,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC ĐÀ NẴNG,"Đường 30/ 4, khu dân cư số 4 Nguyễn Tri Phương, phường Hòa Cường Bắc, quận Hải Châu",ĐÀ NẴNG,MD CENTRAL
+H00489,BỆNH VIỆN ĐA KHOA ĐỒNG NAI,"02 Đồng Khởi, phường Tam Hòa, thành phố Biên Hòa",ĐỒNG NAI,MD SOUTH
+H00499,BỆNH VIỆN PHỤ SẢN ÂU CƠ BIÊN HÒA,"47/19A Điểu Xiển, khu phố 5B, phường Tân Biên, thành phố Biên Hòa, tỉnh Đồng Nai ",ĐỒNG NAI,MD SOUTH
+H00500,BỆNH VIỆN QUÂN Y 7B,"1137 Nguyễn Ái Quốc, phường Tân Tiến, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00515,TRUNG TÂM Y TẾ HUYỆN TAM NÔNG,"01 đường Đốc Binh Kiều, khóm 4, thị trấn Tràm Chim, huyện Tam Nông, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00523,TRUNG TÂM Y TẾ HUYỆN THANH BÌNH,"Khóm Tân Đông A, thị trấn Thanh Bình, huyện Thanh Bình, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00588,TRUNG TÂM Y TẾ HUYỆN XÍN MẦN,"Tổ 4, thị trấn Cốc Pài, huyện Xín Mần, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00594,BỆNH VIỆN SẢN NHI TỈNH HÀ NAM,"Phường Lam Hạ, thành phố Phủ Lý, tỉnh Hà Nam",HÀ NAM,MD NORTH
+H00612,TRUNG TÂM Y TẾ HUYỆN THANH LIÊM,"Tổ dân phố Non, thị trấn Tân Thanh, huyện Thanh Liêm, tỉnh Hà Nam",HÀ NAM,MD NORTH
+H00628,TRUNG TÂM BÁC SĨ GIA ĐÌNH HÀ NỘI,"75 Hồ Mễ Trì, phường Trung Văn, quận Nam Từ Liêm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00631,BỆNH VIỆN TUỆ TĨNH,"2 Trần Phú, phường Mộ Lao, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00664,BỆNH VIỆN ĐA KHOA SƠN TÂY,"304A Lê Lợi, phường Lê Lợi, thị xã Sơn Tây, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00765,BỆNH VIỆN ĐA KHOA HUYỆN CẨM XUYÊN,"Tổ 10, thị trấn Cẩm Xuyên, huyện Cẩm Xuyên, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00766,BỆNH VIỆN ĐA KHOA HUYỆN ĐỨC THỌ,"Tổ dân phố Hùng Dũng, thị trấn Đức Thọ, huyện Đức Thọ, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00771,TRUNG TÂM Y TẾ HUYỆN KỲ ANH,"Thôn Tân Giang, xã Kỳ Giang, huyện Kỳ Anh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00772,TRUNG TÂM Y TẾ HUYỆN BÌNH CHÁNH,"100 Tân Túc, thị trấnTân Túc, huyện Bình Chánh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00775,BỆNH VIỆN ĐA KHOA HUYỆN LỘC HÀ,"Đường 22-12, tổ dân phố Khánh Yên, thị trấn Lộc Hà, huyện Lộc Hà, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00780,TRUNG TÂM Y TẾ THỊ XÃ HỒNG LĨNH,"Tổ Đồng Thuận, phường Đức Thuận, thị xã Hồng Lĩnh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00792,TRUNG TÂM Y TẾ HUYỆN NGHI XUÂN,"Khối 4, thị trấn Nghi Xuân, huyện Nghi Xuân, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00795,BỆNH VIỆN QUÂN Y 7,"12 Tuệ Tĩnh, phường Nguyễn Trãi, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00799,TRUNG TÂM Y TẾ THỊ XÃ KINH MÔN,"294 Trần Hưng Đạo, phường An Lưu, thị xã Kinh Môn, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00873,BỆNH VIỆN ĐA KHOA HỒNG ĐỨC,"136 Hoàng Quôc Việt, quận Kiến An, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00881,VIỆN Y HỌC BIỂN VIỆT NAM,"21 Võ Nguyên Giáp, phường Kênh Dương, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00885,BỆNH VIỆN ĐẠI HỌC VÕ TRƯỜNG TOẢN,"Quốc lộ 1A, xã Tân Phú Thạnh, huyện Châu Thành A, tỉnh Hậu Giang",HẬU GIANG,MD MEKONG
+H00904,TRUNG TÂM Y TẾ HUYỆN LƯƠNG SƠN,"57 Tôn Thất Tùng, tiểu khu 12, thị trấn Lương Sơn, huyện Lương Sơn, tỉnh Hòa Bình",HÒA BÌNH,MD NORTH
+H00915,TRUNG TÂM Y TẾ HUYỆN YÊN THUỶ,"Khu 8, thị trấn Hàng Trạm, huyện Yên Thuỷ, tỉnh Hòa Bình",HÒA BÌNH,MD NORTH
+H00918,TRUNG TÂM Y TẾ HUYỆN TÂN LẠC,"Khu Mường Định, thị trấn Mãn Đức, huyện Tân Lạc, tỉnh Hòa Bình",HÒA BÌNH,MD NORTH
+H00919,BỆNH VIỆN ĐA KHOA HƯNG HÀ,"Đường Sơn Nam, phường Lam Sơn, thành phố Hưng Yên, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00935,PHÒNG KHÁM ĐA KHOA QUỐC TẾ HÀNG XANH,"393-395-397-399 Điện Biên Phủ, phường 25, quận Bình Thạnh",HỒ CHÍ MINH,MD SOUTH
+H00973,NHA KHOA DR HÙNG VÀ CỘNG SỰ,"244A Cống Quỳnh, phường Phạm Ngũ Lão, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00993,TRUNG TÂM Y TẾ HUYỆN AN BIÊN,"Khu phố 3, thị trấn Thứ 3, huyện An Biên, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00994,TRUNG TÂM Y TẾ HUYỆN AN MINH,"Khu phố 2, thị trấn Thứ 11, huyện An Minh, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00996,TRUNG TÂM Y TẾ HUYỆN GÒ QUAO,"Khu phố Phước Hưng 1, thị trấn Gò quao, huyện Gò Quao, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H01023,BỆNH VIỆN ĐA KHOA TỈNH LAI CHÂU,"Tổ 27, phường Đông Phong, thành Phố Lai Châu, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01039,TRUNG TÂM Y TẾ HUYỆN PHONG THỔ," Tổ dân phố Pa So, thị trấn Phong Thổ, huyện Phong Thổ, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01041,TRUNG TÂM Y TẾ HUYỆN MƯỜNG TÈ,"Khu 9, thị trấn Mường Tè, huyện Mường Tè, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01044,TRUNG TÂM Y TẾ HUYỆN TÂN UYÊN,"Tổ dân phố 2, thị trấn Tân Uyên, huyện Tân Uyên, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01047,BỆNH VIỆN ĐA KHOA HOÀN MỸ ĐÀ LẠT,"Đồi Long Thọ, đường Mimoza, phường 10, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01087,TRUNG TÂM Y TẾ HUYỆN BẮC SƠN,"Khối phố Nguyễn Thị Minh Khai, thị trấn Bắc Sơn, huyện Bắc Sơn, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01089,TRUNG TÂM Y TẾ HUYỆN CAO LỘC,"Thị trấn Cao Lộc, huyện Cao Lộc, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01090,TRUNG TÂM Y TẾ HUYỆN CHI LĂNG,"Khu Hòa Bình I, thị trấn Đồng Mỏ, huyện Chi Lăng, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01093,TRUNG TÂM Y TẾ HUYỆN LỘC BÌNH,"Khu Cầu Lấm, thị trấn Lộc Bình, huyện Lộc Bình, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01163,BỆNH VIỆN NHI TỈNH NAM ĐỊNH," 16 Hà Huy Tập, phường Ngô Quyền, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01164,BỆNH VIỆN PHỤ SẢN TỈNH NAM ĐỊNH,"168 Trần Đăng Ninh, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01165,TRUNG TÂM Y TẾ HUYỆN GIAO THUỶ,"Thị trấn Ngô Đồng, huyện Giao Thủy, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01167,BỆNH VIỆN ĐA KHOA HUYỆN HẢI HẬU,"Số 236, Khu 3, thị trấn Yên Định, huyện Hải Hậu, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01176,TRUNG TÂM Y TẾ HUYỆN VỤ BẢN,"Xã Cộng Hòa, huyện Vụ Bản, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01177,TRUNG TÂM Y TẾ HUYỆN XUÂN TRƯỜNG,"Thị trấn Xuân Trường, huyện Xuân Trường, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01195,BỆNH VIỆN ĐA KHOA PHỦ DIỄN,"Xóm 13, xã Quỳnh Thạch, huyện Quỳnh Lưu, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01197,BỆNH VIỆN ĐA KHOA HUYỆN DIỄN CHÂU,"Xóm Lương Đống, xã Nghi Vạn, huyện Nghi Lộc, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01212,BỆNH VIỆN HỮU NGHỊ ĐA KHOA TỈNH NGHỆ AN,"Km 403 AH1, xã Quỳnh Hồng, huyện Quỳnh Lưu, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01217,BỆNH VIỆN QUỐC TẾ VINH,"31 Lệ Ninh, phường Quán Bàu, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01226,BỆNH VIỆN ĐA KHOA HUYỆN NGHI LỘC,"Xóm 3, xã Đà Sơn, huyện Đô Lương, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01239,TRUNG TÂM Y TẾ HUYỆN QUẾ PHONG,"Khối Hợp Tâm, thị trấn Quỳ Hợp, huyện Quỳ Hợp, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01243,TRUNG TÂM Y TẾ HUYỆN TƯƠNG DƯƠNG,"Xã Quỳnh Giang, huyện Quỳnh Lưu, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01255,BỆNH VIỆN SẢN NHI TỈNH NINH BÌNH,"Đường Phan Chu Trinh, phường Nam Thành, thành phố Ninh Bình, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01258,TRUNG TÂM Y TẾ HUYỆN YÊN KHÁNH,"Phố 5, thị trấn Yên Ninh, huyện Yên Khánh, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01261,TRUNG TÂM Y TẾ HUYỆN YÊN MÔ,"Phố Hưng Thượng, thị trấn Yên Thịnh, huyện Yên Mô, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01299,BỆNH VIỆN ĐA KHOA TỈNH PHÚ THỌ ,"Nguyễn Tất Thành, phường Tân Dân, thành phố Việt Trì, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01303,BỆNH VIỆN PHỔI TỈNH PHÚ THỌ,"402 Thanh Bình, phường Thanh Vinh, thị xã tỉnh Phú Thọ, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01308,TRUNG TÂM Y TẾ HUYỆN ĐOAN HÙNG,"TT. Đoan Hùng, huyện Đoan Hùng, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01309,TRUNG TÂM Y TẾ HUYỆN HẠ HOÀ,"Khu 10, thị trấn Hạ Hòa, huyện Hạ Hòa , tỉnh Phú Thọ.",PHÚ THỌ,MD NORTH
+H01311,TRUNG TÂM Y TẾ HUYỆN LÂM THAO,"Thị trấn Lâm Thao, huyện Lâm Thao, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01315,TRUNG TÂM Y TẾ HUYỆN TÂN SƠN,"Khu 5B, Tân Phú, huyện Tân Sơn, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01319,TRUNG TÂM Y TẾ HUYỆN THANH BA,"Khu 11, thị trấn Thanh Ba, huyện Thanh Ba, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01320,TRUNG TÂM Y TẾ HUYỆN THANH SƠN,"Khu Tân Thịnh, thị trấn Thanh Sơn, huyện Thanh Sơn, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01322,TRUNG TÂM Y TẾ HUYỆN YÊN LẬP,"Thôn Trung Ngãi 5, thị trấn Yên Lập, huyện Yên Lập, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01350,BỆNH VIỆN ĐA KHOA HUYỆN BỐ TRẠCH,"Tiểu khu 9 thị trấn Hoàn Lão, huyện Bố Trạch, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01351,BỆNH VIỆN ĐA KHOA HUYỆN TUYÊN HÓA,"Tiểu khu Tam Đồng, thị trấn Đồng Lê, huyện Tuyên Hóa, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01353,BỆNH VIỆN ĐA KHOA HUYỆN MINH HÓA,"Tiểu khu 9, thị trấn Quy Đạt, huyện Minh Hóa, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01368,BỆNH VIỆN ĐA KHOA KHU VỰC QUẢNG NAM,"24 Lê Hữu Trác, phường Vĩnh Điện, thị xã Điện Bàn, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01376,BỆNH VIỆN ĐA KHOA TRUNG ƯƠNG QUẢNG NAM,"Thôn Nam Sơn, Xã Tam Hiệp, huyện Núi Thành, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01380,BỆNH VIỆN PHỤ SẢN NHI QUẢNG NAM,"46 Lý Thường Kiệt, phường Hòa Thuận, thành phố Tam Kỳ, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01397,TRUNG TÂM Y TẾ HUYỆN PHÚ NINH,"Thị trấn Phú Thịnh, huyện Phú Ninh, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01451,TRUNG TÂM Y TẾ HUYỆN BÌNH LIÊU,"thị trấn Bình Liêu, huyện Bình Liêu, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01479,BỆNH VIỆN ĐA KHOA TỈNH QUẢNG TRỊ,"266, Hùng Vương, thành phố Đông Hà, tỉnh Quảng Trị",QUẢNG TRỊ,MD CENTRAL
+H01484,TRUNG TÂM Y TẾ HUYỆN HẢI LĂNG," Hùng Vương, thị trấn Diên Sanh, huyện Hải Lăng, tỉnh Quảng Trị",QUẢNG TRỊ,MD CENTRAL
+H01487,TRUNG TÂM Y TẾ HUYỆN VĨNH LINH," Phạm Văn Đồng, thị trấn Hồ Xá, huyện Vĩnh Linh, tỉnh Quảng Trị",QUẢNG TRỊ,MD CENTRAL
+H01492,BỆNH VIỆN CHUYÊN KHOA SẢN NHI TỈNH SÓC TRĂNG," 645 Tôn Đức Thắng, khóm 3, phường 5, thành phố Sóc Trăng, tỉnh Sóc Trăng.",SÓC TRĂNG,MD MEKONG
+H01518,BỆNH VIỆN ĐA KHOA CUỘC SỐNG,"phường Chiềng Cơi, thành phố Sơn La, tỉnh Sơn La",SƠN LA,MD NORTH
+H01564,TRUNG TÂM Y TẾ HUYỆN GÒ DẦU," 205 Quốc lộ 22B, Khu phố Rạch Sơn, thị trấn Gò Dầu, huyện Gò Dầu, tỉnh Tây Ninh",TÂY NINH,MD SOUTH
+H01598,BỆNH VIỆN MẮT TỈNH THÁI BÌNH ," 282,  Trần Thánh Tông, thành phố Thái Bình",THÁI BÌNH,MD NORTH
+H01599,BỆNH VIỆN NHI TỈNH THÁI BÌNH ," 02,  Tôn Thất Tùng, phường Trần Lãm, thành phố Thái Bình..",THÁI BÌNH,MD NORTH
+H01601,BỆNH VIỆN PHỤ SẢN TỈNH THÁI BÌNH ," 530A,  Lý Bôn, phường Quang Trung, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01604,BỆNH VIỆN ĐA KHOA HUYỆN KIẾN XƯƠNG,"Tổ dân phố Quang Trung, thị trấn Kiến Xương, huyện Kiến Xương, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01607,BỆNH VIỆN ĐA KHOA HUYỆN THÁI THUỴ,"Khu 7, thị trấn Diêm Điền, huyện Thái Thụy, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01608,BỆNH VIỆN ĐA KHOA HUYỆN VŨ THƯ,"Thị trấn Vũ Thư, huyện Vũ Thư, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01622,BỆNH VIỆN ĐA KHOA HUYỆN PHÚ BÌNH,"Thị trấn Hương Sơn, huyện Phú Bình, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01642,TRUNG TÂM Y TẾ HUYỆN ĐẠI TỪ,"Phố Sơn Tập 3, thị trấn Đại Từ, huyện Đại Từ, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01643,TRUNG TÂM Y TẾ HUYỆN ĐỊNH HOÁ,"Tổ dân phố Trung Kiên, thị trấn Chợ Chu, huyện Định Hóa, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01646,TRUNG TÂM Y TẾ HUYỆN PHÚ LƯƠNG,"Tổ dân phố Cầu Trắng, thị trấn Đu, huyện Phú Lương, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01648,TRUNG TÂM Y TẾ HUYỆN VÕ NHAI,"Tổ dân phố Làng Lường, thị trấn Đình Cả, huyện Võ Nhai, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01656,BỆNH VIỆN PHỤC HỒI CHỨC NĂNG THANH HOÁ,"36 Tống Duy Tân, phường Bắc Sơn, thành phố Sầm Sơn, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01666,BỆNH VIỆN 71 TRUNG ƯƠNG,"Xã Quảng Tâm, thành phố Thanh Hóa, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01673,BỆNH VIỆN ĐA KHOA HUYỆN QUẢNG XƯƠNG,"Xã Quảng Phong, huyện Quảng Xương, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H01674,BỆNH VIỆN ĐA KHOA KHU VỰC TĨNH GIA ,"Phường Hải Hòa, thị xã Nghi Sơn, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01675,BỆNH VIỆN ĐA KHOA HUYỆN THƯỜNG XUÂN ," Khu 2 thị trấn Thường Xuân, huyện Thường Xuân, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H01682,BỆNH VIỆN ĐA KHOA TỈNH THANH HÓA," 181 Hải Thượng Lãn Ông, phường Đông Vệ, thành phố Thanh Hóa",THANH HÓA,MD NORTH
+H01689,BỆNH VIỆN NỘI TIẾT TỈNH THANH HÓA,"476 Hải Thượng Lãn Ông, phường Quảng Thắng, thành phố Thanh Hóa",THANH HÓA,MD NORTH
+H01724,BỆNH VIỆN QUỐC TẾ TRUNG ƯƠNG HUẾ ,"03 Ngô Quyền, thành phố Huế, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01733,TRUNG TÂM Y TẾ THỊ XÃ HƯƠNG TRÀ,"Khu vực 6, phường Tứ Hạ, Thị xã Hương Trà, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01736,TRUNG TÂM Y TẾ HUYỆN PHÚ LỘC,"Khu vực 4, thị trấn Phú Lộc, huyện Phú Lộc, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01737,TRUNG TÂM Y TẾ HUYỆN PHÚ VANG,"Thị trấn Phú Đa, huyện Phú Vang, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01779,BỆNH VIỆN ĐA KHOA HOÀN MỸ SÀI GÒN,"60-60A Phan Xích Long, phường 1, quận Phú Nhuận",HỒ CHÍ MINH,MD SOUTH
+H01825,BỆNH VIỆN ĐA KHOA XUYÊN Á,"42 quốc lộ 22, ấp Chợ, xã Tân Phú Trung, huyện Củ Chi",HỒ CHÍ MINH,MD SOUTH
+H01858,BỆNH VIỆN NHI ĐỒNG THÀNH PHỐ HỒ CHÍ MINH,"15 Võ Trần Chí, Tân Kiên, Bình Chánh",HỒ CHÍ MINH,MD SOUTH
+H01861,BỆNH VIỆN PHỤ SẢN MÊ KÔNG,"243 Đ. Hoàng Văn Thụ, phường 1, quận Tân Bình",HỒ CHÍ MINH,MD SOUTH
+H01875,BỆNH VIỆN QUẬN 12,"111 Tân Chánh Hiệp 21, phường Tân Chánh Hiệp, quận 12",HỒ CHÍ MINH,MD SOUTH
+H01955,BỆNH VIỆN ĐA KHOA TỈNH TUYÊN QUANG," 44,  Lê Duẩn, phường Tân Hà, thành phố Tuyên Quang, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H01962,TRUNG TÂM Y TẾ HUYỆN CHIÊM HOÁ,"Tổ Vĩnh Lim, thị trấn Vĩnh Lộc, huyện Chiêm Hóa, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H01964,TRUNG TÂM Y TẾ HUYỆN NA HANG,"Tổ dân phố 9, thị trấn Na Hang, huyện Na Hang, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H01968,TRUNG TÂM Y TẾ HUYỆN SƠN DƯƠNG,"Tổ dân phố Quyết Thắng, thị trấn Sơn Dương, huyện Sơn Dương, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H01999,BỆNH VIỆN HỮU NGHỊ LẠC VIỆT," Nguyễn Tất Thành, thành phố Vĩnh Yên, Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02014,TRUNG TÂM Y TẾ HUYỆN TAM DƯƠNG,"thị trấn Hợp hoà, thị trấn Hợp Hòa, huyện Tam Dương, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02018,BỆNH VIỆN ĐA KHOA TỈNH YÊN BÁI,"Thôn Tiền Phong, xã Giới Phiên, thành phố Yên Bái, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02023,BỆNH VIỆN NỘI TIẾT YÊN BÁI," 150,  Yên Ninh, phường Nguyễn Thái Học, thành phố Yên Bái, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02032,TRUNG TÂM Y TẾ HUYỆN MÙ CANG CHẢI,"Tổ 5, thị trấn Mù Cang Chải, huyện Mù Cang Chải, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02039,TRUNG TÂM Y TẾ HUYỆN VĂN YÊN,"Tổ dân phố  6, thị trấn Mậu A, huyện Văn Yên, thành phố Yên Bái",YÊN BÁI,MD NORTH
+H02042,TRUNG TÂM Y TẾ THỊ XÃ NGHĨA LỘ,"Tổ 1, phường Pú Trạng, thị xã Nghĩa Lộ, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02045,PHÒNG KHÁM MOMCARE,"214 Nguyễn Xiển, phường Thanh Xuân Nam, quận Thanh Xuân, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H02048,BỆNH VIỆN ĐA KHOA HUYỆN NÔNG CỐNG,"Thôn Tập Cát, thị trấn Nông Cống, huyện Nông Cống, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H02054,TRUNG TÂM HỒI SỨC TÍCH CỰC LONG AN,"211 Nguyễn Thông, phường 3, thành phố Tân An, tỉnh Long An",LONG AN,MD MEKONG
+H00125,BỆNH VIỆN SẢN NHI TỈNH BẮC NINH,"Đường Huyền Quang, phường Võ Cường, thành phố Bắc Ninh, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00271,BỆNH VIỆN ĐA KHOA HOÀN MỸ MINH HẢI,"09 Lạc Long Quân, khóm 5, phường 7, thành phố Cà Mau, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00297,BỆNH VIỆN ĐA KHOA HOÀN MỸ CỬU LONG,"Lô 20 Võ Nguyên Giáp, phường Phú Thứ, quận Cái Răng, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00488,BỆNH VIỆN ĐA KHOA THỐNG NHẤT,"234 Quốc lộ 1, phường Tân Biên, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00682,BỆNH VIỆN K CƠ SỞ TÂN TRIỀU,"30 Cầu Bươu, xã Tân Triều, huyện Thanh Trì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00822,TRUNG TÂM Y TẾ HUYỆN CHÍ LINH,"164 Nguyễn Trãi, phường Sao Đỏ, thành phố Chí Linh, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H01052,BỆNH VIỆN NHI LÂM ĐỒNG,"57 Thánh Mẫu, phường 7, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01103,BỆNH VIỆN ĐA KHOA HƯNG THỊNH,"163 Tuệ Tĩnh, phường Kim Tân, thành phố Lào Cai, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01191,BỆNH VIỆN ĐA KHOA MINH AN,"Thôn Lam Trà, xã Bồng Khê, huyện Con Cuông, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01221,BỆNH VIỆN UNG BƯỚU NGHỆ AN,"Số 138, Nguyễn Phong Sắc, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01232,TRUNG TÂM Y TẾ HUYỆN ANH SƠN,"Khối 4, thị trấn Tân Lạc, huyện Quỳ Châu, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01424,BỆNH VIỆN ĐA KHOA TỈNH QUẢNG NGÃI,"Lê Hữu Trác, Nghĩa Lộ, thành phố Quảng Ngãi, tỉnh Quảng Ngãi ",QUẢNG NGÃI,MD CENTRAL
+H01811,BỆNH VIỆN THẨM MỸ JW HÀN QUỐC,"44-50 Tôn Thất Tùng, phường Bến Thành, quận 1",HỒ CHÍ MINH,MD SOUTH
+H01842,BỆNH VIỆN HUYỆN CỦ CHI,"1307 tỉnh lộ 7, ấp Chợ Cũ, xã An Nhơn Tây, huyện Củ Chi",HỒ CHÍ MINH,MD SOUTH
+H01890,BỆNH VIỆN ĐA KHOA QUỐC TẾ NAM SÀI GÒN,"88 đường số 8, khu dân cư Trung Sơn, xã Bình Hưng, huyện Bình Chánh",HỒ CHÍ MINH,MD SOUTH
+H01938,BỆNH VIỆN TRƯỜNG ĐẠI HỌC TRÀ VINH," 126 Nguyễn Thiện Thành, Khóm 4, phường 5, thành phố Trà Vinh, tỉnh Trà Vinh",TRÀ VINH,MD MEKONG
+H01979,BỆNH VIỆN ĐA KHOA XUYÊN Á - VĨNH LONG," 68E, Phạm Hùng, phường 9, thành phố Vĩnh Long, tỉnh Vĩnh Long",VĨNH LONG,MD MEKONG
+DL01006_1,VPĐD AbbVie BioPharmaceuticals GmbH tại TPHCM,"Phòng L7-01, Lầu 7, Tòa nhà Lottery Tower, Số 77 đường Trần Nhân Tôn, Q. 5",HỒ CHÍ MINH,MD SOUTH
+DL01044,Abbott Laboratories S.A,"Lầu8,9,10,1203-04 lầu 12,1308 lầu13 ,p.1601,số 2 Ngô Đức Kế, Phường Bến Nghé, Quận 1",HỒ CHÍ MINH,MD SOUTH
+H02058,ZUELLIG PHARMA VIETNAM,"Tầng 10 & 11, E.Town Central, 11 Đoàn Văn Bơ, quận 4",HỒ CHÍ MINH,MD SOUTH
+H00028,BỆNH VIỆN BÀ RỊA,"686 Võ Văn Kiệt, phường Long Tâm, thành phố Bà Rịa, tỉnh Bà Rịa - Vũng Tàu",Bà Rịa–Vũng Tàu,MD SOUTH
+H00192,BỆNH VIỆN QUỐC TẾ HẠNH PHÚC,"18 Đại lộ Bình Dương, thành phố Thuận An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00501,BỆNH VIỆN QUỐC TẾ HOÀN MỸ ĐỒNG NAI,"1048A Phạm Văn Thuận, khu phố 2, phường Tân Mai, thành phố Biên Hoà, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00710,BỆNH VIỆN RĂNG HÀM MẶT TRUNG ƯƠNG HÀ NỘI,"40 Tràng Thi, phường Hàng Bông, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H01769,BỆNH VIỆN CHẤN THƯƠNG CHỈNH HÌNH TP HỒ CHÍ MINH,"929 Trần Hưng Đạo, phường 1, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01772,BỆNH VIỆN CÔNG AN THÀNH PHỐ HỒ CHÍ MINH," Số 126 Hải Thượng Lãn Ông, phường 10, quận5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01833,BỆNH VIỆN QUỐC TẾ PHÁP VIỆT (FV),"06 Nguyễn Lương Bằng, Phú Mỹ Hưng, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01838,BỆNH VIỆN ĐA KHOA HỒNG ĐỨC - CƠ SỞ 3,"32/2 Thống Nhất, phường 10, quận Gò Vấp, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01839,BỆNH VIỆN HÙNG VƯƠNG,"128 Hồng Bàng, phường 12, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01857,BỆNH VIỆN NHI ĐỒNG 2,"14 Lý Tự Trọng, phường Bến Nghé, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01906,BỆNH VIỆN TAI MŨI HỌNG THÀNH PHỐ HỒ CHÍ MINH,"155B Trần Quốc Thảo, phường 9, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01909,BỆNH VIỆN TIM TÂM ĐỨC,"4 Nguyễn Lương Bằng, phường Tân Phú, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01915,BỆNH VIỆN TRIỀU AN,"425 Kinh Dương Vương, phường An Lạc, quận Bình Tân, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01917,BỆNH VIỆN TRƯNG VƯƠNG,"266 Lý Thường Kiệt, phường 14, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01927,VIỆN TIM THÀNH PHỐ HỒ CHÍ MINH,"04 Dương Quang Trung, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02053,PHÒNG KHÁM ĐA KHOA FV SÀI GÒN,"Lầu 3, tòa nhà Bitexco Financial Tower, 2 Hải Triều, phường Bến Nghé, quận 1",HỒ CHÍ MINH,MD SOUTH
+H00676,BỆNH VIỆN HỮU NGHỊ,"01 Trần Khánh Dư, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00961,BỆNH VIỆN MẮT SÀI GÒN - NHA TRANG,"Lô 9-24 khu dân cư Cầu Dứa, đường 23/10, xã Vĩnh Hiệp, thành phố Nha Trang, tỉnh Khánh Hoà",KHÁNH HÒA,MD SOUTH
+H00616,BỆNH VIỆN BẠCH MAI,"78 Giải Phóng, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H01914,BỆNH VIỆN THỐNG NHẤT,"1 Lý Thường Kiệt, phường 7, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00015,BỆNH VIỆN ĐA KHOA TRUNG TÂM AN GIANG,"60 Ung Văn Khiêm, phường Mỹ Phước, thành phố Long Xuyên, tỉnh An Giang",AN GIANG,MD MEKONG
+H00016,BỆNH VIỆN ĐA KHOA KHU VỰC TỈNH AN GIANG,"917 Tôn Đức Thắng, phường Vĩnh Mỹ, thành phố Châu Đốc, tỉnh An Giang",AN GIANG,MD MEKONG
+H00049,BỆNH VIỆN ĐA KHOA HÙNG CƯỜNG,"108 Tuệ Tĩnh, thị trấn Thắng, huyện Hiệp Hòa, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00051,BỆNH VIỆN ĐA KHOA ANH QUẤT,"Bến xe khách, khu Đồi Đỏ, thị trấn Cao Thượng, huyện Tân Yên, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00052,BỆNH VIỆN ĐA KHOA TỈNH BẮC GIANG,"166 đường Thân Khuê, phường Song Mai, thành phố Bắc Giang, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00056,BỆNH VIỆN TÂM THẦN TỈNH BẮC GIANG,"Số 166, đường Thân Khuê, phường Song Mai, thành phố Bắc Giang, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00062,BỆNH VIỆN SẢN NHI BẮC GIANG,"Đường Lê Lợi, phường Dĩnh Kế, thành phố Bắc Giang, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00068,TRUNG TÂM Y TẾ HUYỆN LỤC NAM,"Tổ dân phố Thân Phú, thị trấn Đồi Ngô, huyện Lục Nam, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00069,TRUNG TÂM Y TẾ HUYỆN LỤC NGẠN,"Tổ dân phố Minh Lập, thị trấn Chũ, huyện Lục Ngạn, tỉnh Bắc Giang",BẮC GIANG,MD NORTH
+H00112,BỆNH VIỆN ĐA KHOA TỈNH BẮC NINH,"Đường Nguyễn Quyền, phường Võ Cường, thành phố Bắc Ninh, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00124,BỆNH VIỆN QUÂN Y 110,"Số 7 đường Trần Lựu, phường Thị Cầu, thành phố Bắc Ninh, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00126,PHÒNG KHÁM ĐA KHOA THIỆN NHÂN,"Thị trấn Phố Mới, huyện Quế Võ, tỉnh Bắc Ninh",BẮC NINH,MD NORTH
+H00233,TRUNG TÂM Y TẾ HUYỆN YÊN CHÂU,"thị trấn Yên Châu, , huyện Yên Châu, tỉnh Sơn La",SƠN LA,MD NORTH
+H00298,BỆNH VIỆN ĐA KHOA QUẬN Ô MÔN,"83 Cách Mạng Tháng Tám, phường Châu Văn Liêm, quận Ô Môn, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00371,BỆNH VIỆN Y HỌC CỔ TRUYỀN ĐÀ NẴNG,"Đường Đinh Gia Trinh, phường Hòa Xuân, quận Cẩm Lệ, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00380,TRUNG TÂM Y TẾ QUẬN HẢI CHÂU,"38 Cao Thắng, phường Thanh Bình, quận Hải Châu, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00393,TRUNG TÂM Y TẾ QUẬN CẨM LỆ,"105 Nguyễn Nhàn, phường Hòa Thọ Đông, quận Cẩm Lệ, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00398,TRUNG TÂM Y TẾ QUẬN SƠN TRÀ,"1118 Ngô Quyền, phường An Hải Tây, quận Sơn Trà, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00531,BỆNH VIỆN QUÂN Y 211,"410 Phạm Văn Đồng, thành phố Pleiku, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00591,BỆNH VIỆN ĐA KHOA TỈNH HÀ NAM,"158 Trường Chinh, thành phố Phủ Lý, tỉnh Hà Nam",HÀ NAM,MD NORTH
+H00640,BỆNH VIỆN ĐA KHOA AN VIỆT,"1E Trường Chinh, phường Phương Liệt, quận Thanh Xuân, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00683,BỆNH VIỆN PHỔI TRUNG ƯƠNG,"463 Hoàng Hoa Thám, phường Liễu Giai, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00715,VIỆN Y HỌC PHÒNG KHÔNG KHÔNG QUÂN,"225 Trường Chinh, phường Khương Thượng, quận Thanh Xuân, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00724,BỆNH VIỆN TRUNG ƯƠNG QUÂN ĐỘI 108,"1B Trần Hưng Đạo, phường Bạch Đằng, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00761,VIỆN DA LIỄU TRUNG ƯƠNG,"15A Phương Mai, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00882,VIỆN Y HỌC HẢI QUÂN,"13 Phạm Văn Đồng, phường Anh Dũng, quận Dương Kinh, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00899,BỆNH VIỆN ĐA KHOA TỈNH HÒA BÌNH,"Tổ 10, phường Đồng Tiến, thành phố Hòa Bình, tỉnh Hòa Bình",HÒA BÌNH,MD NORTH
+H00991,BỆNH VIỆN RĂNG HÀM MẶT NGHỆ AN,"161 V.I. Lê Nin, Nghi Phú, Vinh, Nghệ An``",Nghệ An,MD NORTH
+H01005,BỆNH VIỆN NHI QUỐC TẾ CHẤT LƯỢNG CAO MEDGREEN,"248 Đặng Xuân Bảng, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01013,"TT PTTK, CHẤN THƯƠNG VÀ BỎNG TẠO HÌNH ĐÀ NẴNG","124 Hải Phòng, phường Thạch Thang, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H01028,BỆNH VIỆN NHI QUỐC TẾ CHẤT LƯỢNG CAO MEDGREEN,"248 Đặng Xuân Bảng, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01029,BỆNH VIỆN ĐA KHOA THỊ XÃ PHÚ THỌ,"69 Cao Bang, phường Âu Cơ, thị xã tỉnh Phú Thọ, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01036,BỆNH VIỆN ĐỘT QUỴ VÀ THẦN KINH HÀ NỘI – THÁI BÌNH," 01 Nguyễn Tông Quai, tổ 13, phường Trần Lãm, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01071,BỆNH VIỆN ĐA KHOA TỈNH LẠNG SƠN,"Thôn Đại Sơn, xã Hợp Thành, huyện Cao Lộc, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01073,SỞ Y TẾ TỈNH LẠNG SƠN,"50 Đinh Tiên Hoàng, phường Chi Lăng, thành phố Lạng Sơn, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01074,CAO ĐẲNG Y TẾ LẠNG SƠN,"11 Hoàng Văn Thụ, phường Chi Lăng, thành phố Lạng Sơn, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01088,TRUNG TÂM Y TẾ HUYỆN BÌNH GIA,"Khối phố 6B, thị trấn Bình Gia, huyện Bình Gia, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01092,TRUNG TÂM Y TẾ HUYỆN HỮU LŨNG,"143 đường Tôn Thất Tùng, khu An Thịnh, thị trấn Hữu Lũng, huyện Hữu Lũng, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01094,TRUNG TÂM Y TẾ HUYỆN TRÀNG ĐỊNH,"Khu 2, thị trấn Thất Khê, huyện Tràng Định, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01095,TRUNG TÂM Y TẾ HUYỆN VĂN LÃNG,"Khu 3, thị trấn Na Sầm, huyện Văn Lãng, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01096,TRUNG TÂM Y TẾ HUYỆN VĂN QUAN,"Phố Đức Tâm, thị trấn Văn Quan, huyện Văn Quan, tỉnh Lạng Sơn",LẠNG SƠN,MD NORTH
+H01160,BỆNH VIỆN ĐA KHOA TỈNH NAM ĐỊNH,"2 Trần Quốc Toản, phường Năng Tĩnh, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01178,SỞ Y TẾ TỈNH NAM ĐỊNH,"14 Trần Thánh Tông, thành phố Nam Định, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01179,TRUNG TÂM Y TẾ HUYỆN Ý YÊN,"Thị trấn Lâm, huyện Ý Yên, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01181,BỆNH VIỆN PHỤC HỒI CHỨC NĂNG TỈNH NAM ĐỊNH,"Thị trấn Thịnh Long, huyện Hải Hậu, tỉnh Nam Định",NAM ĐỊNH,MD NORTH
+H01254,BỆNH VIỆN MẮT TỈNH NINH BÌNH,"314 Hải Thượng Lãn Ông, phường Phúc Thành, thành phố Ninh Bình, tình Ninh Bình",NINH BÌNH,MD NORTH
+H01445,BỆNH VIỆN ĐA KHOA TỈNH QUẢNG NINH,"Phố Tuệ Tĩnh, phường Bạch Đằng, Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01452,BỆNH VIỆN LÃO KHOA - PHỤC HỒI CHỨC NĂNG,"Tổ 3 Khu Minh Khai, phường Đại Yên, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01455,TRUNG TÂM Y TẾ HUYỆN HẢI HÀ," 10 Trần Quốc Toản, Quảng Hà, Hải Hà, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01459,TRUNG TÂM Y TẾ THÀNH PHỐ ĐÔNG TRIỀU,"Khu 5, phường Đức Chính, Đông Triều, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01461,TRUNG TÂM Y TẾ THÀNH PHỐ MÓNG CÁI," Tuệ Tĩnh, phường Ninh Dương, thành phố Móng Cái, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01465,BỆNH VIỆN SẢN NHI QUẢNG NINH,"phường Đại Yên, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01466,BỆNH VIỆN PHỔI QUẢNG NINH," 1, Ngõ 32  Trần Phú, phường Cao Xanh, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01468,BỆNH VIỆN VIỆT NAM THỤY ĐIỂN UÔNG BÍ," Tuệ Tĩnh, phường Thanh Sơn, thành phố Uông Bí, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01469,BỆNH VIỆN BÃI CHÁY,"Giếng Đáy, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01471,SỞ Y TẾ TỈNH QUẢNG NINH,"Tầng 19, Trụ sở Liên cơ quan  3, phường Hồng Hà, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+H01515,BỆNH VIỆN ĐA KHOA HUYỆN BẮC YÊN,"thị trấn Bắc Yên, huyện Bắc Yên, tỉnh Sơn La",SƠN LA,MD NORTH
+H01516,BỆNH VIỆN ĐA KHOA HUYỆN MAI SƠN,"Tiểu khu 17, thị trấn Hát Lót, Mai Sơn, tỉnh Sơn La",SƠN LA,MD NORTH
+H01517,BỆNH VIỆN ĐA KHOA HUYỆN MỘC CHÂU,Tiểu khu 11- thị trấn Mộc Châu- Mộc Châu- tỉnh Sơn La,SƠN LA,MD NORTH
+H01520,BỆNH VIỆN ĐA KHOA HUYỆN QUỲNH NHAI,"Xóm 4, xã Mường Giàng, huyện Quỳnh Nhai, tỉnh Sơn La",SƠN LA,MD NORTH
+H01521,BỆNH VIỆN ĐA KHOA HUYỆN THUẬN CHÂU,"Tiểu khu 9, thị trấn Thuận Châu, huyện Thuận Châu, tỉnh Sơn La",SƠN LA,MD NORTH
+H01523,BỆNH VIỆN ĐA KHOA HUYỆN MƯỜNG LA,"Tiểu khu 4, thị trấn Ít Ong, huyện Mường La, tỉnh Sơn La",SƠN LA,MD NORTH
+H01524,BỆNH VIỆN ĐA KHOA THẢO NGUYÊN,"TK Bệnh viện, thị trấnNT Mộc Châu, Mộc Châu, tỉnh Sơn La",SƠN LA,MD NORTH
+H01533,SỞ Y TẾ TỈNH SƠN LA," Vũ Xuân Thiều, thành phố Sơn La, tỉnh Sơn La",SƠN LA,MD NORTH
+H01534,BỆNH VIỆN ĐA KHOA HUYỆN SÔNG MÃ,"Bản Quyết Thắng, xã Nà Nghịu, huyện Sông Mã, tỉnh Sơn La",SƠN LA,MD NORTH
+H01536,BỆNH VIỆN ĐA KHOA TỈNH SƠN LA,"Tổ 17, phường Chiềng Sinh, thành phố Sơn La, tỉnh Sơn La",SƠN LA,MD NORTH
+H01538,BỆNH VIỆN ĐA KHOA HUYỆN SỐP CỘP,"Bản p Nặm, xã p Cộp, huyện p Cộp, tỉnh Sơn La",SƠN LA,MD NORTH
+H01545,TRUNG TÂM Y TẾ HUYỆN THUẬN CHÂU,"Tiểu khu 9, thị trấn Thuận Châu, huyện Thuận Châu , Son La",SƠN LA,MD NORTH
+H01595,BỆNH VIỆN ĐẠI HỌC Y THÁI BÌNH ,"373 Lý Bôn, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01596,CAO ĐẲNG Y TẾ THÁI BÌNH,"290 Phan Bá Vành, P.Quang Trung, thành phốtỉnh Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01624,BỆNH VIỆN PHỔI THÁI NGUYÊN,"Phường Tân Thịnh, thành phố Thái Nguyên, Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01684,BỆNH VIỆN ĐA KHOA TRÍ ĐỨC THÀNH,"xã Định Tường, huyện Yên Định, tỉnh Thanh Hóa.",THANH HÓA,MD NORTH
+H01908,BỆNH VIỆN ĐA KHOA TÂM ANH THÀNH PHỐ HỒ CHÍ MINH,"2B Phổ Quang, phường 2, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02064,BỆNH VIỆN ĐA KHOA NÀ CHÌ,"Xã Nà Chì, huyện Xín Mần, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H02085,BỆNH VIỆN MẮT HOA LƯ,"153 -161 Lê Đại Hành, phường Thanh Bình, thành phố Ninh Bình, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H02504,BỆNH VIỆN ĐA KHOA HẠ LONG,"Khu Trới 2, phường Hoành Bồ, thành phố Hạ Long, tỉnh Quảng Ninh",QUẢNG NINH,MD NORTH
+KHACHLE-05,CÔNG TY GIẤY VÀ BAO BÌ PHÚ GIANG,"Thôn Tam Tảo, Xã Phú Lâm, Huyện Tiên Du",BẮC NINH,MD NORTH
+DEMO-YV,DEMO Y VIỆT,"12 Quach Van Tuan St., Ward 12, Tan Binh Dis.",HỒ CHÍ MINH,MD SOUTH
+H00001,TRUNG TÂM Y TẾ THÀNH PHỐ CHÂU ĐỐC,"Đường Số 3, Châu Phú A, thành phố Châu Đốc, tỉnh An Giang",AN GIANG,MD MEKONG
+H00005,BỆNH VIỆN ĐA KHOA KHU VỰC TÂN CHÂU,"485 Nguyễn Tri Phương, phường Long Thạnh, Tân Châu, tỉnh An Giang",AN GIANG,MD MEKONG
+H00020,BỆNH VIỆN SẢN NHI AN GIANG,"02 Lê Lợi, phường Mỹ Bình, thành phố Long Xuyên, tỉnh An Giang",AN GIANG,MD MEKONG
+H00022,TRUNG TÂM Y TẾ HUYỆN AN PHÚ,"Đường Bờ Bắc Kinh Mới, thị trấn An Phú, huyện An Phú, tỉnh An Giang",AN GIANG,MD MEKONG
+H00023,TRUNG TÂM Y TẾ HUYỆN CHÂU THÀNH - AN GIANG,"Ấp Phú An 1, xã Bình Hòa, huyện Châu Thành, tỉnh An Giang",AN GIANG,MD MEKONG
+H00030,BỆNH VIỆN VŨNG TÀU,"Số 27 đường 2/9, phường 11, thành phố Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00034,SỞ Y TẾ TỈNH BÀ RỊA VŨNG TÀU,"1 Phạm Văn Đồng, phường Phước Trung, thành phố Bà Rịa, tỉnh Bà Rịa - Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00036,TRUNG TÂM Y TẾ HUYỆN CHÂU ĐỨC,"14 Lê Hồng Phong, thị trấn Ngãi Giao, huyện Châu Đức, tỉnh Bà Rịa - Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00040,TRUNG TÂM Y TẾ QUÂN DÂN Y HUYỆN CÔN ĐẢO,"Số 5 đường Lê Hồng Phong, huyện Côn Đảo, tỉnh Bà Rịa – Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H00091,BỆNH VIỆN ĐA KHOA TỈNH BẠC LIÊU,"06 Nguyễn Huệ, phường 3, thành phố Bạc Liêu, tỉnh Bạc Liêu",BẠC LIÊU,MD MEKONG
+H00104,TRUNG TÂM Y TẾ HUYỆN HỒNG DÂN,"01 Trần Hưng Đạo, ấp Nội Ô, thị trấn Ngan Dừa, huyện Hồng Dân, tỉnh Bạc Liêu",BẠC LIÊU,MD MEKONG
+H00132,BỆNH VIỆN NGUYỄN ĐÌNH CHIỂU,"109 Đoàn Hoàng Minh, phường 5, thành phố Bến Tre, tỉnh Bến Tre",BẾN TRE,MD MEKONG
+H00133,BỆNH VIỆN Y HỌC CỔ TRUYỀN TỈNH BẾN TRE,"44 Đoàn Hoàng Minh, phường 6, thành phố Bến Tre, tỉnh Bến Tre",BẾN TRE,MD MEKONG
+H00144,BỆNH VIỆN ĐA KHOA MINH ĐỨC,"333D Đoàn Hoàng Minh, phường 6, thành phố Bến Tre, tỉnh Bến Tre",BẾN TRE,MD MEKONG
+H00188,BỆNH VIỆN ĐA KHOA HOÀN HẢO DĨ AN,"26/14 khu phố Bình Đường 2, phường An Bình, thành phố Dĩ An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00195,BỆNH VIỆN ĐA KHOA TỈNH BÌNH DƯƠNG,"05 Phạm Ngọc Thạch, phường Hiệp Thành, thành phố Thủ Dầu Một, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00203,TRUNG TÂM Y TẾ THÀNH PHỐ DĨ AN,"500 đường tỉnh 743, khu phố Đông Tác, phường Tân Đông Hiệp, thành phố Dĩ An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00204,BỆNH VIỆN ĐA KHOA HOÀN HẢO THUẬN AN,"344B đường BH22, khu phố Đồng An, phường Bình Hòa, thành phố Thuận An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00207,TRUNG TÂM Y TẾ HUYỆN DẦU TIẾNG,"Khu phố 5, thị trấn Dầu Tiếng, huyện Dầu Tiếng, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00209,BỆNH VIỆN QUỐC TẾ BECAMEX,"Khu Gò Cát, phường Lái Thiêu, thành phố Thuận An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00210,BỆNH VIỆN ĐA KHOA MỸ PHƯỚC,"Đường TC3, tổ 6, khu phố 3, phường Mỹ Phước, thành phố Bến Cát, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00214,TRUNG TÂM Y TẾ HUYỆN BÀU BÀNG," Khu phố Xà Mách, thị trấn Lai Uyên, huyện Bàu Bàng, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00216,TRUNG TÂM Y TẾ HUYỆN PHÚ GIÁO,"Khu phố 3, thị trấn Phước Vĩnh, huyện Phú Giáo, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00220,TRUNG TÂM Y TẾ THÀNH PHỐ THUẬN AN,"Đường Nguyễn Văn Tiết, khu phố Đông Tư, phường Lái Thiêu, thành phố Thuận An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00232,TRUNG TÂM Y TẾ HUYỆN BÙ ĐỐP,"Khu phố Thanh Xuân, thị trấn Thanh Bình, huyện Bù Đốp, tỉnh Bình Phước",BÌNH PHƯỚC,MD SOUTH
+H00272,BỆNH VIỆN ĐA KHOA CÁI NƯỚC,"Khóm 2, thị trấn Cái Nước, huyện Cái Nước, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00273,BỆNH VIỆN ĐA KHOA TỈNH CÀ MAU,"16 Hải Thượng Lãn Ông, khóm 6, phường 6, thành phố Cà Mau, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00280,BỆNH VIỆN SẢN NHI TỈNH CÀ MAU,"85 Lý Thường Kiệt, phường 6, thành phố Cà Mau, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00284,BỆNH VIỆN ĐA KHOA NĂM CĂN,"306 Nguyễn Tất Thành, khóm 6, thị trấn Năm Căn, huyện Năm Căn, tỉnh Cà Mau",CÀ MAU,MD MEKONG
+H00290,TRUNG TÂM Y TẾ HUYỆN QUẢNG XƯƠNG,"Xã Quảng Phong, huyện Quảng Xương, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00299,BỆNH VIỆN ĐA KHOA QUẬN THỐT NỐT,"Quốc lộ 91, khu vực Phụng Thạnh 1, phường Thốt Nốt, quận Thốt Nốt, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00301,BỆNH VIỆN ĐA KHOA THÀNH PHỐ CẦN THƠ,"04 Châu Văn Liêm, phường Tân An, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00303,BỆNH VIỆN ĐA KHOA TRUNG ƯƠNG CẦN THƠ,"315 Nguyễn Văn Linh, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00304,BỆNH VIỆN TRƯỜNG ĐẠI HỌC Y DƯỢC CẦN THƠ,"179 đường Nguyễn Văn Cừ, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00306,BỆNH VIỆN LAO VÀ BỆNH PHỔI TỈNH CẦN THƠ,"Khu vực Bình Hòa A, phường Phước Thới, quận Ô Môn, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00310,BỆNH VIỆN ĐA KHOA TÂM MINH ĐỨC,"551 Trần Quang Diệu, phường An Thới, quận Bình Thủy, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00313,BỆNH VIỆN ĐA KHOA HOÀ HẢO MEDIC CẦN THƠ,"102 Cách Mạng Tháng Tám, phường Cái Khế, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00315,BỆNH VIỆN NHI ĐỒNG THÀNH PHỐ CẦN THƠ,"345 Nguyễn Văn Cừ, phường An Bình, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00321,BỆNH VIỆN PHỤ SẢN THÀNH PHỐ CẦN THƠ,"106 Cách Mạng Tháng Tám, phường Cái Khế, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00323,BỆNH VIỆN QUÂN Y 121,"01 đường 30/4, phường Tân An, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00324,BỆNH VIỆN QUỐC TẾ PHƯƠNG CHÂU - CẦN THƠ,"300 Nguyễn Văn Cừ nối dài, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00327,BỆNH VIỆN UNG BƯỚU THÀNH PHỐ CẦN THƠ,"4 Châu Văn Liêm, phường Tân An, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00329,TRUNG TÂM Y TẾ HUYỆN PHONG ĐIỀN,"Ấp Nhơn Lộc 2, thị trấn Phong Điền, huyện Phong Điền, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00367,SỞ Y TẾ THÀNH PHỐ ĐÀ NẴNG,"24 Trần Phú, phường Thạch Thang, quận Hải Châu, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00379,BỆNH VIỆN HOÀN MỸ ĐÀ NẴNG,"291 Nguyễn Văn Linh, phường Thạc Gián, quận Thanh Khê, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00391,BỆNH VIỆN UNG BƯỚU ĐÀ NẴNG,"Đường Hoàng Thị Loan, tổ 28, phường Hòa Minh, quận Liên Chiểu, thành phố Đà Nẵng",Đà Nẵng,MD CENTRAL
+H00434,BỆNH VIỆN ĐA KHOA QUỐC TẾ MIỀN ĐÔNG,"Khu Gò Cát, phường Lái Thiêu, thành phố Thuận An, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H00447,BỆNH VIỆN THẨM MỸ ST. PAUL CLINIC,"215 Nguyễn Văn Thủ, phường Đa Kao, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00452,BỆNH VIỆN CÔNG AN THÀNH PHỐ CẦN THƠ,"9B Trần Phú, phường Cái Khế, quận Ninh Kiều, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H00453,BỆNH VIỆN RĂNG - HÀM - MẶT THÀNH PHỐ ĐÀ NẴNG,"118 Lê Đình Lý, phường Vĩnh Trung, quận Thanh Khê, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00467,TRUNG TÂM Y TẾ HUYỆN KRÔNG PĂK,"147 đường Lê Duẩn, thị trấn Phước An, huyện Krông Pắc, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00478,SỞ Y TẾ TỈNH ĐỒNG NAI,"02 Phan Đình Phùng, phường Quang Vinh, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00479,BỆNH VIỆN ĐA KHOA CAO SU ĐỒNG NAI,"Phường Suối Tre,  thành phố Long Khánh, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00480,TRUNG TÂM Y TẾ HUYỆN THỐNG NHẤT,"Km 01, quốc lộ 20, thị trấn Dầu Giây, huyện Thống nhất, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00481,TRUNG TÂM Y TẾ HUYỆN NHƠN TRẠCH,"Ấp Xóm Hố, xã Phú Hội, huyện Nhơn Trạch, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00482,TRUNG TÂM Y TẾ HUYỆN TRẢNG BOM,"Thị trấn Trảng Bom, huyện Trảng Bom, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00483,TRUNG TÂM Y TẾ HUYỆN VĨNH CỬU,"224 Phan Chu Trinh, thị trấn Vĩnh An, huyện Vĩnh Cửu, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00485,BỆNH VIỆN ĐA KHOA KHU VỰC ĐỊNH QUÁN,"Khu phố Hiệp Quyết, thị trấn Định Quán, huyện Định Quán, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00486,BỆNH VIỆN ĐA KHOA KHU VỰC LONG KHÁNH,"911 đường 21/4, phường Suối Tre, thành phố Long Khánh, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00487,BỆNH VIỆN ĐA KHOA KHU VỰC LONG THÀNH," 01 Lý Thái Tổ, khu Phước Hải, huyện Long Thành, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00491,TRUNG TÂM Y TẾ THÀNH PHỐ BIÊN HÒA,"98/487 Phạm Văn Thuận, phường Tân Mai, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00495,BỆNH VIỆN ĐẠI HỌC Y DƯỢC SHINGMARK,"Quốc lộ 51, phường Long Bình Tân, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00496,BỆNH VIỆN HOÀN MỸ ITO ĐỒNG NAI,"F99 Võ Thị Sáu, phường Thống Nhất, thành phố Biên Hòa, tỉnh Đồng Nai ",ĐỒNG NAI,MD SOUTH
+H00497,BỆNH VIỆN NHI ĐỒNG ĐỒNG NAI,"Khu phố 5, phường Tân Hiệp, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00504,TRUNG TÂM Y TẾ HUYỆN TÂN PHÚ," Phạm Ngọc Thạch, thị trấn Tân Phú, huyện Tân Phú, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00505,BỆNH VIỆN ĐA KHOA ĐỒNG THÁP,"39 Nguyễn Văn Tre, xã Mỹ Tân, thành phố Cao Lãnh, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00508,BỆNH VIỆN Y HỌC CỔ TRUYỀN ĐỒNG THÁP,"78 đường 30/4, phường 1, thành phố Cao Lãnh, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00509,BỆNH VIỆN PHỔI ĐỒNG THÁP,"Tổ 3, ấp 4, xã Mỹ Thọ, huyện Cao Lãnh, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00516,BỆNH VIỆN ĐA KHOA KHU VỰC THÁP MƯỜI,"Đường Hùng Vương, khóm 2, thị trấn Mỹ An, huyện Tháp Mười, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00517,BỆNH VIỆN ĐA KHOA KHU VỰC HỒNG NGỰ,"Đường Trần Phú, khóm An Lợi, phường An Lộc, thành phố Hồng Ngự, tỉnh Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00519,BỆNH VIỆN ĐA KHOA SA ĐÉC,"Số 153, Nguyễn Sinh Sắc, Khóm Hòa Khánh, Phường 2, thành phố Sa Đéc, Đồng Tháp",ĐỒNG THÁP,MD MEKONG
+H00554,TRUNG TÂM BẢO VỆ SỨC KHỎE LAO ĐỘNG VÀ MÔI TRƯỜNG ,"Phường Long Bình Tân, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00558,TRUNG TÂM Y TẾ HUYỆN KRÔNG CHRO,"Thị trấn Kông Chro, huyện Kông Chro, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00718,BỆNH VIỆN TÂM THẦN LÊ MINH XUÂN,"F4/12 tỉnh lộ 10, xã Lê Minh Xuân, huyện Bình Chánh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00800,BỆNH VIỆN BỆNH NHIỆT ĐỚI HẢI DƯƠNG,"241 Nguyễn Lương Bằng, phường Thanh Bình, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00808,PHÒNG KHÁM ĐA KHOA SONG AN,"510 Nguyễn Đình Chiểu, phường 4, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00815,BỆNH VIỆN 1A,"542 Lý Thường Kiệt (số cũ 1A), phường 7, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00931,BỆNH VIỆN ĐA KHOA THU PHÚC,"418 - 420 Nguyễn Thái Học, TP Quy Nhơn, Bình Định",Bình Định,MD SOUTH
+H00936,BỆNH VIỆN PHÚ THỌ - TP HỒ CHÍ MINH,"298 Độc Lập, phường Tân Quý, quận Tân Phú, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00959,BỆNH VIỆN ĐA KHOA TỈNH KHÁNH HÒA,"19 Yersin, phường Lộc Thọ, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00967,BỆNH VIỆN ĐẠI HỌC Y DƯỢC SHING MARK,"Quốc lộ 51, phường Long Bình Tân, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+H00977,TRUNG TÂM Y TẾ THÀNH PHỐ PHÚ QUỐC,"128 đường 30 tháng 4, khu phố 1, phường Dương Đông, thành phố Phú Quốc, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00978,BỆNH VIỆN Y DƯỢC CỔ TRUYỀN KIÊN GIANG,"64 Đống Đa, phường Vĩnh Lạc, thành phố Rạch Giá, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00980,BỆNH VIỆN ĐA KHOA TỈNH KIÊN GIANG,"13 Nam Kỳ Khởi Nghĩa, phường An Hoà, thành phố Rạch Giá, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00981,TRUNG TÂM Y TẾ THÀNH PHỐ HÀ TIÊN,"65 Cách Mạng Tháng 8, khu phố III, phường Tô Châu, thành phố Hà Tiên, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00982,BỆNH VIỆN SẢN NHI TỈNH KIÊN GIANG,"03 Ung Văn Khiêm, khu phố 5, phường An Hòa, thành phố Rạch Giá, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00992,TRUNG TÂM Y TẾ HUYỆN VĨNH THUẬN,"Khu phố Vĩnh Phước 2, thị trấn Vĩnh Thuận, huyện Vĩnh Thuận, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00998,TRUNG TÂM Y TẾ HUYỆN GIỒNG RIỀNG,"Khu phố 8, thị trấn Giồng Riềng, huyện Giồng Riềng, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H00999,TRUNG TÂM Y TẾ HUYỆN HÒN ĐẤT,"Khu phố Chòm Sao, thị trấn Hòn Đất, huyện Hòn Đất, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H01001,TRUNG TÂM Y TẾ HUYỆN KIÊN LƯƠNG,"Đường Trần Hưng Đạo, khu phố Kiên Tân, huyện Kiên Lương, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H01006,TRUNG TÂM Y TẾ THÀNH PHỐ RẠCH GIÁ,"01 Âu Cơ, phường Vĩnh Lạc, thành phố Rạch Giá, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H01034,BỆNH VIỆN HOÀN MỸ TƯ NHÂN BÌNH DƯƠNG,"152 Huỳnh Văn Cù, phường Chánh Mỹ, thành phố Thủ Dầu Một, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H01078,TRUNG TÂM Y KHOA HOÀN MỸ TÂN PHÚ,"1/1 Trường Chinh, phường Tây Thạnh, quận Tân Phú, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01083,BỆNH VIỆN PHCN-ĐTBNN TP HỒ CHÍ MINH,"313 Đường Âu Dương Lân, Phường 2, Quận 8",HỒ CHÍ MINH,MD SOUTH
+H01084,BỆNH VIỆN THUẬN MỸ THỦ DẦU MỘT,"152 Huỳnh Văn Cù, Phường Chánh Mỹ, Thành phố Thủ Dầu Một, Bình Dương",Bình Dương,MD SOUTH
+H01145,TRUNG TÂM Y TẾ HUYỆN BẾN LỨC,"126 Nguyễn Hữu Thọ, khu phố 3, thị trấn Bến Lức, huyện Bến Lức, tỉnh Long An",LONG AN,MD MEKONG
+H01370,BỆNH VIỆN ĐA KHOA THÁI BÌNH DƯƠNG HỘI AN,"06 Phan Đình Phùng, phường Tân An, TP. Hội An, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01427,TRUNG TÂM Y TẾ HUYỆN SƠN TÂY,"Xã Sơn Dung, huyện Sơn Tây, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01437,TRUNG TÂM Y TẾ HUYỆN SƠN TỊNH,"Xã Tịnh Ấn Tây, thành phố Quảng Ngãi, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01493,SỞ Y TẾ TỈNH SÓC TRĂNG," 6  Châu Văn Tiếp, P.2, thành phốSóc Trăng, tỉnh Sóc Trăng",SÓC TRĂNG,MD MEKONG
+H01498,BỆNH VIỆN ĐA KHOA TỈNH SÓC TRĂNG,"378  Lê Duẩn, phường 9, thành phố Sóc Trăng, tỉnh Sóc Trăng",SÓC TRĂNG,MD MEKONG
+H01508,TRUNG TÂM Y TẾ HUYỆN KẾ SÁCH," tỉnh 932, ấp An Thành, thị trấn Kế Sách, huyện Kế Sách, tỉnh Sóc Trăng",SÓC TRĂNG,MD MEKONG
+H01547,BỆNH VIỆN ĐA KHOA TƯ NHÂN CAO VĂN CHÍ," 4/58 Tôn Đức Thắng, xã Long Thành Trung, thị xã Hòa Thành, Tây Ninh",TÂY NINH,MD SOUTH
+H01552,BỆNH VIỆN ĐA KHOA TÂY NINH,"626 đường 30 tháng 4, Khu Phố 5, phường 3, thành phố Tây Ninh, tỉnh Tây Ninh",TÂY NINH,MD SOUTH
+H01560,BỆNH VIỆN ĐA KHOA HỒNG HƯNG,"82 Phạm Văn Đồng, Hoà Thành, Tây Ninh",TÂY NINH,MD SOUTH
+H01649,TRUNG TÂM Y TẾ THÀNH PHỐ THÁI NGUYÊN,"Số 34, Phường Phan Đình Phùng, Thành phố Thái Nguyên",Thái Nguyên,MD NORTH
+H01740,TRUNG TÂM Y TẾ HUYỆN CAI LẬY," tỉnh 875B, khu phố Bình Trị, thị trấn Bình Phú, huyện Cai Lậy, tỉnh Tiền Giang",TIỀN GIANG,MD MEKONG
+H01742,BỆNH VIỆN ĐA KHOA TRUNG TÂM TIỀN GIANG," 315 QL1, ấp Long Hung, xã Phước Thạnh, thành phốMỹ Tho, tỉnh Tiền Giang",TIỀN GIANG,MD MEKONG
+H01745,BỆNH VIỆN PHỤ SẢN TIỀN GIANG,"04A Hùng Vương, phường 1, thành phố Mỹ Tho, Tiền Giang",TIỀN GIANG,MD MEKONG
+H01746,BỆNH VIỆN QUÂN Y 120,"518 Nguyễn Thị Thập, phường 6, thành phố Mỹ  Tho, tỉnh Tiền Giang",TIỀN GIANG,MD MEKONG
+H01754,TRUNG TÂM Y TẾ THÀNH PHỐ MỸ THO," 57 Hùng Vương, phường 7, thành phố Mỹ Tho, tỉnh Tiền Giang",TIỀN GIANG,MD MEKONG
+H01763,BỆNH VIỆN AN BÌNH,"146 An Bình, phường 7, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01764,BỆNH VIỆN AN SINH,"10 Trần Huy Liệu, phường 11, quận Phú Nhuận, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01766,BỆNH VIỆN BÌNH DÂN,"371 Điện Biên Phủ, phường 4, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01773,BỆNH VIỆN CHỢ RẪY,"201B Nguyễn Chí Thanh, phường 12, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01781,BỆNH VIỆN ĐA KHOA QUỐC TẾ HOÀN MỸ THỦ ĐỨC,"241 quốc lộ 1K, phường Linh Xuân, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01790,BỆNH VIỆN ĐA KHOA KHU VỰC HÓC MÔN,"79 Bà Triệu, thị trấn Hóc Môn, huyện Hóc Môn, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01791,BỆNH VIỆN ĐA KHOA KHU VỰC THỦ ĐỨC,"64 Lê Văn Chí, khu phố 1, phường Linh Trung, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01816,BỆNH VIỆN THẨM MỸ VIỆT MỸ,"331 Nguyễn Trãi, phường Nguyễn Cư Trinh, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01820,BỆNH VIỆN ĐA KHOA SÀI GÒN,"125 Lê Lợi, phường Bến Thành, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01831,PHÒNG KHÁM ĐẠI HỌC Y DƯỢC PHẠM NGỌC THẠCH,"461 Sư Vạn Hạnh, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01843,BỆNH VIỆN HUYỆN NHÀ BÈ,"281A Lê Văn Lương, ấp 3, xã Phước Kiển, huyện Nhà Bè, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01852,BỆNH VIỆN NGUYỄN TRÃI,"314 Nguyễn Trãi, phường 8, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01853,BỆNH VIỆN NGUYỄN TRI PHƯƠNG,"468 Nguyễn Trãi, phường 8, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01854,BỆNH VIỆN NHÂN DÂN 115,"527 Sư Vạn Hạnh, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01862,BỆNH VIỆN PHỤ SẢN QUỐC TẾ SÀI GÒN,"63 Bùi Thị Xuân, phường Phạm Ngũ Lão, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01864,BỆNH VIỆN QUẬN 1,"Số 338 Hai Bà Trưng, phường Tân Định, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01866,BỆNH VIỆN QUẬN 3,"114 - 116 - 118 Trần Quốc Thảo, phường 7, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01867,BỆNH VIỆN QUẬN 4,"65 Bến Vân Đồn, phường 12, quận 4, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01871,BỆNH VIỆN QUẬN 8,"82 Cao Lỗ, phường 4, quận 8, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01874,BỆNH VIỆN QUẬN 11,"72 đường số 5, cư xá Bình Thới, phường 8, quận 11, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01877,BỆNH VIỆN QUẬN BÌNH THẠNH,"132 Lê Văn Duyệt, phường 1, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01879,BỆNH VIỆN QUẬN PHÚ NHUẬN,"274 Nguyễn Trọng Tuyển, phường 8, quận Phú Nhuận, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01880,BỆNH VIỆN QUẬN TÂN BÌNH,"605 Hoàng Văn Thụ, phường 4, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01882,BỆNH VIỆN THÀNH PHỐ THỦ ĐỨC,"29 Phú Châu, phường Tam Phú, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01884,BỆNH VIỆN QUÂN Y 175,"786 Nguyễn Kiệm, phường 3, quận Gò Vấp, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01885,BỆNH VIỆN QUÂN Y 7A,"466 Nguyễn Trãi, phường 8, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01889,BỆNH VIỆN PHƯƠNG NAM,"02 Nguyễn Lương Bằng, phường Tân Phú, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01892,BỆNH VIỆN QUỐC TẾ COLUMBIA ASIA GIA ĐỊNH,"01 Nơ Trang Long, phường 7, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01893,BỆNH VIỆN SÀI GÒN - ITO TÂN BÌNH," 232 – 305 Lê Văn Sỹ, phường 1, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01896,BỆNH VIỆN QUỐC TẾ MINH ANH,"36 đường số 1B, phường Bình Trị Đông B, quận Bình Tân, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01903,BỆNH VIỆN SÀI GÒN - ITO PHÚ NHUẬN,"140C Nguyễn Trọng Tuyển, phường 08, quận Phú Nhuận, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01904,BỆNH VIỆN STO PHƯƠNG ĐÔNG,"79 Thành Thái, phường 14, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01974,BỆNH VIỆN PHỔI VĨNH LONG,"290/16, Ấp Hưng Quới, Xã Thanh Đức, huyện Long Hồ, Vĩnh Long",VĨNH LONG,MD MEKONG
+H01978,BỆNH VIỆN ĐA KHOA TRIỀU AN LOAN TRÂM," 379C, Tân Vĩnh Thuận, Tân Ngãi, thành phố Vĩnh Long, tỉnh Vĩnh Long",VĨNH LONG,MD MEKONG
+H01981,BỆNH VIỆN ĐA KHOA TỈNH VĨNH LONG,"301 Trần Phú, phường 4, thành phố Vĩnh Long, tỉnh Vĩnh Long",VĨNH LONG,MD MEKONG
+H02043,TRƯỜNG CAO ĐẲNG Y TẾ BÌNH DƯƠNG,"529 Lê Hồng Phong, phường Phú Hòa, thành phố Thủ Dầu Một, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H02052,TRUNG TÂM Y TẾ THÀNH PHỐ VŨNG TÀU,"278 Lê Lợi, phường 7, thành phố Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H02055,BỆNH VIỆN QUỐC TẾ PHƯƠNG CHÂU - SÓC TRĂNG,"373 Phú Lợi, P2, thành phố Sóc Trăng, tỉnh Sóc Trăng",SÓC TRĂNG,MD MEKONG
+H02061,BỆNH VIỆN DÃ CHIẾN KIÊN GIANG HÀ TIÊN,"Trung tâm văn hóa phường Mỹ Đức, phường Mỹ Đức, thành phố Hà Tiên, tỉnh Kiên Giang",KIÊN GIANG,MD MEKONG
+H02062,PHÒNG KHÁM KHU VỰC AN NGHĨA,"Ấp An Nghĩa, xã An Thới Đông, huyện Cần Giờ, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02065,BỆNH VIỆN DÃ CHIẾN SỐ 24,"Khu công nghiệp Tân Kim, thị trấn Cần Giuộc, huyện Cần Giuộc, tỉnh Long An",LONG AN,MD MEKONG
+H02066,BỆNH VIỆN DÃ CHIẾN TRUYỀN NHIỄM SỐ 5G,"Kinh Dương Vương, phường 13, quận 6, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02067,TRUNG TÂM KIỂM SOÁT BỆNH TẬT KHÁNH HÒA,"04 Quang Trung, phường Vạn Thắng, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H02068,BỆNH VIỆN DÃ CHIẾN CỦ CHI,"Xã An Nhơn Tây, huyện Củ Chi, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02070,BỆNH VIỆN DÃ CHIẾN SỐ 8,"Khu tái định cư Bình Khánh, phường An Khánh, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02071,BỆNH VIỆN ĐA KHOA VŨNG TÀU,"27 đường 2 Tháng 9, phường 11, thành phố Vũng Tàu, tỉnh Bà Rịa - Vũng Tàu",BÀ RỊA–VŨNG TÀU,MD SOUTH
+H02073,BỆNH VIỆN DÃ CHIẾN SỐ 10 LONG AN,"Trường THPT Tân Hưng, huyện Tân Hưng, tỉnh Long An",LONG AN,MD MEKONG
+H02076,BỆNH VIỆN ĐẠI HỌC NAM CẦN THƠ ,"Khu dân cư Hồng Loan, phường Hưng Thạnh, quận Cái Răng, thành phố Cần Thơ",CẦN THƠ,MD MEKONG
+H02078,BỆNH VIỆN ĐA KHOA PHÚC AN BÌNH PHƯỚC,"Quốc lộ 13, phường Thành Tâm, thị xã Chơn Thành, tỉnh Bình Phước",BÌNH PHƯỚC,MD SOUTH
+H02079,PHÒNG KHÁM ĐA KHOA THÁI HOÀ NINH THUẬN,"93-95 Ngô Gia Tự, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận",NINH THUẬN,MD CENTRAL
+H02080,TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÀNH PHỐ HỒ CHÍ MINH,"475A Điện Biên Phủ, phường 25, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02082,BỆNH VIỆN CHUYÊN KHOA GIA ĐỊNH,"425 - 427 - 429 Nơ Trang Long, phường 13, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02084,CÔNG TY CỔ PHẦN DƯỢC LÂM ĐỒNG,"18 Ngô Quyền, phường 6, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H02507,BỆNH VIỆN DÃ CHIẾN BÌNH DƯƠNG,"Đường Hùng Vương, phường Hòa Phú, thành phố Thủ Dầu Một, tỉnh Bình Dương",BÌNH DƯƠNG,MD SOUTH
+H02508,TRUNG TÂM HỒI SỨC TÍCH CỰC COVID-19 ĐỒNG NAI,"234 Quốc lộ 1, phường Tân Biên, thành phố Biên Hòa, tỉnh Đồng Nai",ĐỒNG NAI,MD SOUTH
+KHACHLE-08,CÔNG AN TỈNH BÌNH DƯƠNG,"681 Cách mạng tháng tám, phường Chánh Nghĩa, TP Thủ Dầu Một",BÌNH DƯƠNG,MD SOUTH
+KHACHLE-10,THẢO LY,Hồ Chí Minh,HỒ CHÍ MINH,MD SOUTH
+H00165,BỆNH VIỆN ĐA KHOA TỈNH BÌNH ĐỊNH,"106 Nguyễn Huệ, phường Trần Phú, thành phố Quy Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00407,BỆNH VIỆN ĐA KHOA VÙNG TÂY NGUYÊN,"184 Trần Quý Cáp, phường Tự An, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00741,BỆNH VIỆN PHỔI HÀ NỘI,"44 Thanh Nhàn, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00884,TRUNG TÂM Y TẾ THÀNH PHỐ VỊ THANH,"7 Nguyễn Công Trứ, khu vực 4, phường 1, thành phố Vị Thanh, tỉnh Hậu Giang",HẬU GIANG,MD MEKONG
+H00892,TRUNG TÂM Y TẾ HUYỆN CHÂU THÀNH A - HẬU GIANG,"Ấp 1A, xã Tân Hoà, huyện Châu Thành, tỉnh Hậu Giang",HẬU GIANG,MD MEKONG
+H00950,BỆNH VIỆN ĐA KHOA KHU VỰC CAM RANH,"97 Nguyễn Thái Học, phường Cam Lộc, thành phố Cam Ranh, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00951,BỆNH VIỆN ĐA KHOA KHU VỰC NINH HÒA,"Tổ dân phố 16, phường Ninh Hiệp, thị xã Ninh Hòa, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00957,BỆNH VIỆN UNG BƯỚU KHÁNH HOÀ,"229 Nguyễn Khuyến, phường Vĩnh Hải, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00958,TRUNG TÂM Y TẾ HUYỆN CAM LÂM,"Tổ dân phố Bãi Giếng Trung, thị trấn Cam Đức, huyện Cam Lâm, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00960,BỆNH VIỆN LAO VÀ BỆNH PHỔI KHÁNH HOÀ,"Núi Sạn, phường Vĩnh Hải, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00962,SỞ Y TẾ TỈNH KHÁNH HOÀ,"3A Hàn Thuyên, phường Xương Huân, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00963,BỆNH VIỆN BỆNH NHIỆT ĐỚI KHÁNH HÒA,"23/10, thôn Phú Ân Nam 1, xã Diên An, huyện Diên Khánh, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00964,TRUNG TÂM Y TẾ HUYỆN KHÁNH VĨNH,"Tổ 6, thị trấn Khánh Vĩnh, huyện Khánh Vĩnh, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00966,TRUNG TÂM Y TẾ HUYỆN VẠN NINH,"Thôn Tân Đức Đông, xã Vạn Lương, huyện Vạn Ninh, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00969,TRUNG TÂM Y TẾ HUYỆN KHÁNH SƠN,"Thôn Tà Nĩa, xã Sơn Trung, huyện Khánh Sơn, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00971,TRUNG TÂM Y TẾ THỊ XÃ NINH HÒA,"Tổ dân phố Phú Thọ 2, phường Ninh Diêm, thị xã Ninh Hòa, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H01283,BỆNH VIỆN ĐA KHOA SÀI GÒN PHAN RANG,"05 Lê Hồng Phong, phường Mỹ Hương, thành phố Phan Rang - Tháp Chàm, tỉnh Ninh Thuận",NINH THUẬN,MD CENTRAL
+H01326,TRUNG TÂM Y TẾ THÀNH PHỐ TUY HÒA,"273 Nguyễn Văn Linh, phường Phú Lâm, thành phố Tuy Hòa, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01327,TRUNG TÂM Y TẾ THỊ XÃ SÔNG CẦU,"Khu phố Long Hải Bắc, Phường Xuân Yên, thị xã Sông Cầu, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01330,TRUNG TÂM Y TẾ THỊ XÃ ĐÔNG HÒA,"Khu phố Phú Hiệp 3, Phường Hòa Hiệp Trung, thị xã Đông Hoà, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01332,TRUNG TÂM Y TẾ HUYỆN PHÚ HÒA,"Khu phố Định Thọ I, Thị trấn Phú Hoà, huyện Phú Hoà, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01355,BỆNH VIỆN HỮU NGHỊ VIỆT NAM – CU BA ĐỒNG HỚI,"Đường Hữu Nghị, tiểu khu 14, phường Nam Lý, thành phố Đồng Hới, tỉnh Quảng Bình",Quảng Bình,MD CENTRAL
+H01793,BỆNH VIỆN ĐA KHOA MỸ ĐỨC PHÚ NHUẬN,"43R/2-4 Hồ Văn Huê, phường 9, quận Phú Nhuận, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01809,BỆNH VIỆN THẨM MỸ AVA,"236-238 Võ Văn Tần, phường 5, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01827,BỆNH VIỆN ĐẠI HỌC Y DƯỢC TP HỒ CHÍ MINH - CS 1,"215 Hồng Bàng, phường 11, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01865,BỆNH VIỆN LÊ VĂN THỊNH,"130 Lê Văn Thịnh, phường Bình Trưng Tây, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01881,BỆNH VIỆN QUẬN TÂN PHÚ,"609 - 611 Âu Cơ, phường Phú Trung, quận Tân Phú, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01920,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC CENTRAL PARK,"720A Điện Biên Phủ, phường 22, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02077,Dr. DUY ANH MEDIAL CLINIC,"Tòa nhà IRIS 3, Hà Đô Centrosa, 118 đường Ba Tháng Hai, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00006,TRUNG TÂM Y TẾ THÀNH PHỐ CAO BẰNG,"Phường Sông Bằng, thành phố Cao Bằng, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00007,BỆNH VIỆN TĨNH TÚC,"Thị trấn Tĩnh Túc, huyện Nguyên Bình, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00053,BỆNH VIỆN 09 HÀ NỘI,"Km3 đường 70, xã Tân Triều, huyện Thanh Trì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00061,TRUNG TÂM Y TẾ HUYỆN THANH TRÌ,"Thị trấn Văn Điển, huyện Thanh Trì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00071,TRUNG TÂM Y TẾ HÀNG KHÔNG,"23/200 Nguyễn Sơn, phường Ngọc Lâm, quận Long Biên, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00074,BỆNH VIỆN ĐA KHOA TỈNH BẮC KẠN," Tổ 12, phường Nguyễn Thị Minh Khai, thành phố Bắc Kạn, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00077,TRUNG TÂM TIM MẠCH BỆNH VIỆN E,"87 - 89 Trần Cung, phường Nghĩa Tân, quận Cầu Giấy, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00080,TRUNG TÂM Y TẾ HUYỆN BA BỂ,"Tiểu khu 2, thị trấn Chợ Rã, huyện Ba Bể, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00081,BỆNH VIỆN CÔNG AN THÀNH PHỐ HÀ NỘI,"9 Văn Phú, phường Phú La, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00082,TRUNG TÂM Y TẾ HUYỆN BẠCH THÔNG,"Thị trấn Phủ Thông, huyện Bạch Thông, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00084,TRUNG TÂM Y TẾ HUYỆN CHỢ ĐỒN,"Tổ 1, thị trấn Bằng Lũng, huyện Chợ Đồn, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00085,TRUNG TÂM Y TẾ HUYỆN CHỢ MỚI - BẮC KẠN,"Tổ 11, thị trấn Đồng Tâm, huyện Chợ mới, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00086,TRUNG TÂM Y TẾ HUYỆN NA RÌ,"Thôn Pàn Chầu, thị trấn Yến Lạc, huyện Na Rì, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00088,TRUNG TÂM Y TẾ HUYỆN NGÂN SƠN,"Xã Vân Tùng, huyện Ngân Sơn, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00090,TRUNG TÂM Y TẾ HUYỆN PÁC NẶM,"Xã Bộc Bố, huyện Pác Nặm, tỉnh Bắc Kạn",BẮC KẠN,MD NORTH
+H00136,TRUNG TÂM Y TẾ HUYỆN BA VÌ,"Thị trấn Tây Đằng, huyện Ba Vì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00164,BỆNH VIỆN ĐA KHOA HOÀ BÌNH - BÌNH ĐỊNH,"355 Trần Hưng Đạo, phường Trần Hưng Đạo, thành phố Quy Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00264,BỆNH VIỆN ĐA KHOA HUYỆN HẬU LỘC," 15 Lưu Cộng Hoà, khu Tân Mỹ, thị trấn Hậu Lộc, huyện Hậu Lộc, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00265,BỆNH VIỆN ĐA KHOA HUYỆN LANG CHÁNH,"Khu phố Lê Lai, thị trấn Lang Chánh, huyện Lang Chánh, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H00288,BỆNH VIỆN ĐA KHOA HUYỆN QUAN SƠN,"Km 35 thị trấn Quan Sơn, huyện Quan Sơn, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00296,TRUNG TÂM Y TẾ THỊ XÃ BỈM SƠN,"219 Trần Phú, phường Lam Sơn, thị xã Bỉm Sơn, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H00330,TRUNG TÂM Y TẾ THÀNH PHỐ SẦM SƠN," 286 Lê Lợi, phường Trường Sơn, thành phố Sầm Sơn, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H00334,BÊNH VIỆN ĐA KHOA HUYỆN THỌ XUÂN,"Thị trấn Thọ Xuân, huyện Thọ Xuân, tỉnh Thanh Hoá ",THANH HÓA,MD NORTH
+H00335,TRUNG TÂM Y TẾ HUYỆN THƯỜNG XUÂN,"Khu 3 thị trấn Thường Xuân, huyện Thường Xuân, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00338,BỆNH VIỆN ĐA KHOA TỈNH CAO BẰNG,"Km2 đường Đông Khê, phường Tân Giang, thành phố Cao Bằng, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00340,TRUNG TÂM Y TẾ HUYỆN VĨNH LỘC,"Thôn Bái Xuân, xã Vĩnh Phúc, huyện Vĩnh Lộc, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H00351,TRUNG TÂM Y TẾ HUYỆN BẢO LẠC,"Tổ dân phố 6, thị trấn Bảo Lạc, huyện Bảo Lạc, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00352,TRUNG TÂM Y TẾ HUYỆN BẢO LÂM - CAO BẰNG,"Khu 2, thị trấn Pác Miầu, huyện Bảo Lâm, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00353,TRUNG TÂM Y TẾ HUYỆN HẠ LANG,"Xóm Đoỏng Hoan, thị trấn Thanh Nhật, huyện Hạ Lang, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00354,TRUNG TÂM Y TẾ HUYỆN HÀ QUẢNG,"Thị trấn Thông Nông, huyện Hà Quảng, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00355,TRUNG TÂM Y TẾ HUYỆN HÒA AN,"Thị trấn Nước Hai, huyện Hòa An, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00357,TRUNG TÂM Y TẾ HUYỆN NGUYÊN BÌNH,"Thị trấn Nguyên Bình, huyện Nguyên Bình, tỉnh Cao Bằng ",CAO BẰNG,MD NORTH
+H00359,TRUNG TÂM Y TẾ HUYỆN QUẢNG HOÀ,"Thị trấn Hòa Thuận, huyện Quảng Hòa, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00360,TRUNG TÂM Y TẾ HUYỆN THẠCH AN,"Tố dân phố 2, thị trấn Đông Khê, huyện Thạch An, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00364,TRUNG TÂM Y TẾ HUYỆN TRÙNG KHÁNH,"Xóm Tân Lập, xã Cao Chương, huyện Trùng Khánh, tỉnh Cao Bằng",CAO BẰNG,MD NORTH
+H00374,VIỆN THẨM MỸ QUỐC TẾ QC," 82 Nguyễn Văn Linh, phường Nam Dương, quận Hải Châu, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00564,BỆNH VIỆN ĐA KHOA TỈNH HÀ GIANG,"Số 11, tổ 10, đường Minh Khai, thành phố Hà Giang, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00565,BỆNH VIỆN LAO VÀ BỆNH PHỔI TỈNH HÀ GIANG,"Tổ 3, phường Minh Khai, thành phố Hà Giang, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00567,SỞ Y TẾ TỈNH HÀ GIANG,"Số 338, phường Nguyễn Trãi, thành phố Hà Giang, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00568,BỆNH VIỆN ĐA KHOA HUYỆN MÈO VẠC,"Tổ 5, thị trấn Mèo Vạc, huyện Mèo Vạc, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00569,BỆNH VIỆN ĐA KHOA KHU VỰC YÊN MINH,"Tổ 6, thị trấn Yên Minh, huyện Yên Minh, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00570,BỆNH VIỆN ĐA KHOA HUYỆN BẮC MÊ,"Thị trấn Yên Phú, huyện Bắc Mê, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00571,BỆNH VIỆN ĐA KHOA HUYỆN QUẢN BẠ,"Tổ 4, thị trấn Tam Sơn, huyện Quản Bạ, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00572,BỆNH VIỆN ĐA KHOA HUYỆN XÍN MẦN,"Tổ 4, thị trấn Cốc Pài, huyện Xín Mần, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00574,BỆNH VIỆN ĐA KHOA KHU VỰC HOÀNG SU PHÌ,"Tổ dân phố số 5, thị trấn Vinh Quang, huyện Hoàng Su Phì, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00575,BỆNH VIỆN ĐA KHOA HUYỆN VỊ XUYÊN,"Tổ 10, thị trấn Vị Xuyên, huyện Vị Xuyên, Hà Giang",HÀ GIANG,MD NORTH
+H00577,TRUNG TÂM Y TẾ HUYỆN BẮC MÊ," Tổ 5, thị trấn Yên Phú, huyện Bắc Mê, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00578,BỆNH VIỆN ĐA KHOA KHU VỰC BẮC QUANG,"Tổ 1, thị trấn Việt Quang, huyện Bắc Quang, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00580,BỆNH VIỆN ĐA KHOA HUYỆN ĐỒNG VĂN,"Tổ 7, thị trấn Đồng Văn, huyện Đồng Văn, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00583,TRUNG TÂM Y TẾ HUYỆN MÈO VẠC," Tổ 5, thị trấn Mèo Vạc, huyện Mèo Vạc, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00585,BỆNH VIỆN ĐA KHOA HUYỆN QUANG BÌNH," Tổ 5, thị trấn Yên Bình, huyện Quang Bình, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00586,TRUNG TÂM Y TẾ HUYỆN QUANG BÌNH,"Phố mới, xã Yên Bình, huyện Quang Bình, tỉnh Hà Giang",HÀ GIANG,MD NORTH
+H00615,BỘ QUỐC PHÒNG,"7 Nguyễn Tri Phương, phường Điện Biên Phủ, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00617,BỆNH VIỆN BẮC THĂNG LONG,"Tổ 18, thị trấn Đông Anh, huyện Đông Anh, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00623,BỆNH VIỆN Y HỌC CỔ TRUYỀN TRUNG ƯƠNG,"29 Nguyễn Bỉnh Khiêm, phường Nguyễn Du, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00626,VIỆN Y HỌC CỔ TRUYỀN QUÂN ĐỘI,"442 Kim Giang, phường Đại Kim, quận Hoàng Mai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00627,BỆNH VIỆN ĐA KHOA Y HỌC CỔ TRUYỀN HÀ NỘI,"8 Phạm Hùng, phường Mai Dịch, quận Cầu Giấy, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00635,BỆNH VIỆN CHÂM CỨU TRUNG ƯƠNG,"49 Thái Thịnh, phường Trung Liệt, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00636,BỆNH VIỆN BỆNH NHIỆT ĐỚI TRUNG ƯƠNG,"78 Giải Phóng, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00639,BỆNH VIỆN ĐA KHOA 16A HÀ ĐÔNG,"150 Nguyễn Sơn Hà, phường Phúc La, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00642,BỆNH VIỆN ĐA KHOA ĐÔNG ANH,"Đường Cao Lỗ, thị trấn Đông Anh, huyện Đông Anh, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00643,BỆNH VIỆN ĐA KHOA ĐỨC GIANG,"54 Trường Lâm, phường Đức Giang, quận Long Biên, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00644,BỆNH VIỆN ĐA KHOA HÀ ĐÔNG,"2 Bế Văn Đàn, phường Quang Trung, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00645,BỆNH VIỆN ĐA KHOA HÒE NHAI,"4 Hoè Nhai, phường Nguyễn Trung Trực, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00646,BỆNH VIỆN ĐA KHOA HỒNG HÀ,"16 Nguyễn Như Đổ, phường Văn Miếu, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00648,BỆNH VIỆN ĐA KHOA HUYỆN BA VÌ,"Xã Đồng Thái, huyện Ba Vì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00649,BỆNH VIỆN ĐA KHOA HUYỆN ĐAN PHƯỢNG,"Thị trấn Phùng, huyện Đan Phượng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00650,BỆNH VIỆN ĐA KHOA HUYỆN GIA LÂM,"Khu đô thị mới Trâu Quỳ, thịt trấn Trâu Quỳ, huyện Gia Lâm, thành phố Hà Nội ",HÀ NỘI,MD NORTH
+H00651,BỆNH VIỆN ĐA KHOA HUYỆN HOÀI ĐỨC,"Thôn Lũng Kênh, xã Đức Giang, huyện Hoài Đức, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00652,BỆNH VIỆN ĐA KHOA HUYỆN MÊ LINH,"Thôn 1, xã Thạch Đà, huyện Mê Linh, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00654,BỆNH VIỆN ĐA KHOA HUYỆN QUỐC OAI,"Thị trấn Quốc Oai, huyện Quốc Oai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00655,BỆNH VIỆN ĐA KHOA HUYỆN THANH OAI,"Thị trấn Kim Bài, huyện Thanh Oai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00662,BỆNH VIỆN ĐA KHOA SÓC SƠN,"Thôn Miếu Thờ, xã Tiên Dược, huyện Sóc Sơn, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00665,BỆNH VIỆN ĐA KHOA TÂM ANH,"108 Hoàng Như Tiếp, phường Bồ Đề, quận Long Biên, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00669,BỆNH VIỆN ĐA KHOA VÂN ĐÌNH,"Thị trấn Vân Đình, huyện Ứng Hòa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00671,BỆNH VIỆN ĐA KHOA ĐỐNG ĐA,"180 Nguyễn Lương Bằng, phường Quang Trung, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00673,BỆNH VIỆN E,"91 Trần Cung, phường Cổ Nhuế, quận Cầu Giấy, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00674,BỆNH VIỆN ĐA KHOA HÀ THÀNH,"57-59-61-63 Vũ Thạnh, phường Ô Chợ Dừa, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00677,BỆNH VIỆN HỮU NGHỊ VIỆT ĐỨC,"40 Tràng Thi, phường Hàng Bông, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00678,BỆNH VIỆN HỮU NGHỊ VIỆT NAM - CU BA,"37 Hai Bà Trưng, phường Tràng Tiền, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00695,BỆNH VIỆN NAM THĂNG LONG,"38 Tân Xuân, xã Xuân Đỉnh, huyện Từ Liêm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00700,BỆNH VIỆN PHỤ SẢN HÀ NỘI,"La Thành, phường Láng Thượng, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00701,BỆNH VIỆN PHỤ SẢN HÀ NỘI CƠ SỞ 2,"38 Cảm Hội, phường Đống Mác, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00702,BỆNH VIỆN PHỤ SẢN TRUNG ƯƠNG,"43 Tràng Thi, phường Hàng Bông, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00704,BỆNH VIỆN NAM HỌC VÀ HIẾM MUỘN HÀ NỘI,"431 Tam Trinh (Lô 07-3A), Cụm công nghiệp Hoàng Mai, quận Hoàng Mai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00706,BỆNH VIỆN QUÂN Y 103,"261 Phùng Hưng, phường Phúc La, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00707,BỆNH VIỆN QUÂN Y 105,"2 Chùa Thông, phường Sơn Lộc, thị xã Sơn Tây, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00708,BỆNH VIỆN QUÂN Y 354,"120 Đốc Ngữ, phường Vĩnh Phú, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00711,BỆNH VIỆN TAI MŨI HỌNG TRUNG ƯƠNG,"78 Giải Phóng, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00714,BỆNH VIỆN PHỤ SẢN THIỆN AN,"27 ngõ 603 Lạc Long Quân, phường Xuân La, quận Tây Hồ, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00717,VIỆN TIM MẠCH BỆNH VIỆN BẠCH MAI,"78 Giải Phóng, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00719,BỆNH VIỆN TIM HÀ NỘI,"92 Trần Hưng Đạo, phường Trần Hưng Đạo, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00721,BỆNH VIỆN THANH NHÀN,"42 Thanh Nhàn, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00725,BỆNH VIỆN UNG BƯỚU HÀ NỘI,"42A Thanh Nhàn, phường Thanh Nhàn, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00728,BỆNH VIỆN ĐA KHOA XANH PÔN,"12 Chu Văn An, phường Điện Biên, quận Ba Đình, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00730,BỆNH VIỆN VIỆT PHÁP HÀ NỘI,"1 Phương Mai, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00734,BỆNH VIỆN THẨM MỸ XUÂN HƯƠNG,"22 Triệu Việt Vương, phường Bùi Thị Xuân, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00742,BỆNH VIỆN ĐA KHOA HUYỆN CHƯƠNG MỸ,"120 Hòa Sơn, thị trấn Chúc Sơn, huyện Chương Mỹ, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00746,TRUNG TÂM Y TẾ HUYỆN PHÚ XUYÊN,"Tiểu khu Thao Chính, thị trấn Phú Xuyên, huyện Phú Xuyên, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00755,TRUNG TÂM Y TẾ QUẬN HOÀNG MAI,"Khu Trung Tâm Hành chính quận Hoàng Mai, phường Thịnh Liệt, quận Hoàng Mai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00760,VIỆN BỎNG QUỐC GIA LÊ HỮU TRÁC,"263 Phùng Hưng, phường Phúc La, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00768,BỆNH VIỆN NHI HÀ NỘI,"Đường Nguyễn Trác, phường Yên Nghĩa, quận Hà Đông, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00782,TRUNG TÂM Y TẾ THỊ XÃ KỲ ANH," Thôn Tân Giang, xã Kỳ Giang, huyện Kỳ Anh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00783,TRUNG TÂM Y TẾ NGÀNH CAO SU,"410 Trường Chinh, phường 13, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00790,TRUNG TÂM Y TẾ HUYỆN HƯƠNG SƠN,"Tổ 2, thị trấn Phố Châu, huyện Hương Sơn, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00793,TRUNG TÂM Y TẾ HUYỆN THẠCH HÀ," Thị trấn Thạch Hà, huyện Thạch Hà, tỉnh tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00807,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC CẦN THƠ,"150A Đ.3/2, Xuân Khánh, Ninh Kiều, Cần Thơ",Cần Thơ,MD MEKONG
+H00826,TRUNG TÂM Y TẾ HUYỆN KIM THÀNH,"Thị trấn Phú Thái, huyện Kim Thành, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00830,BỆNH VIỆN ĐA KHOA CÁT BÀ,"1-2-3 Hà Sen, thị trấn Cát Bà, huyện Cát Hải, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00831,SỞ Y TẾ TỈNH HẢI PHÒNG,"38 Lê Đại Hành, quận Hồng Bàng, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00835,BỆNH VIỆN ĐA KHOA KIẾN AN,"35 Trần Tất Văn, phường Phù Liễn, quận Kiến An, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00837,TRUNG TÂM Y TẾ HUYỆN TIÊN LÃNG,"130 Phạm Ngọc Đa, khu 8, thị trấn Tiên Lãng, huyện Tiên Lãng, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00838,TRUNG TÂM Y TẾ HUYỆN VĨNH BẢO,"154 tiểu khu Tân Hoà, huyện Vĩnh Bảo, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00842,TRUNG TÂM Y TẾ QUẬN LÊ CHÂN,"169 Tô Hiệu, phường Trại Cau, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00849,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC HẢI PHÒNG,"Tổ 31, phường Vĩnh Niệm, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00851,BỆNH VIỆN ĐẠI HỌC Y HẢI PHÒNG,"225C Lạch Tray, quận Ngô Quyền, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00853,BỆNH VIỆN HỮU NGHỊ VIỆT TIỆP,"01 Nhà Thương, phường Cát Dài, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00857,BỆNH VIỆN PHỤ SẢN HẢI PHÒNG,"19 Trần Quang Khải, quận Hồng Bàng, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00860,BỆNH VIỆN TÂM THẦN HẢI PHÒNG,"Cụm II, phường Đông Khê, quận Ngô Quyền, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00864,BỆNH VIỆN TRẺ EM HẢI PHÒNG,"Phố Việt Đức, phường Lãm Hà, quận Kiến An, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00870,TRUNG TÂM Y TẾ QUẬN KIẾN AN,"360 Trần Thành Ngọ, quận Kiến An, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00872,BỆNH VIỆN ĐA KHOA HỒNG PHÚC,"05 Hồ Xuân Hương, phường Minh Khai, quận Hồng Bàng, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00880,TRUNG TÂM Y TẾ QUẬN NGÔ QUYỀN,"7 Phạm Minh Đức, phường Máy Tơ, quận Ngô Quyền, thành phố Hải Phòng ",HẢI PHÒNG,MD NORTH
+H00920,BỆNH VIỆN ĐA KHOA PHỐ NỐI,"Phường Bần Yên Nhân, thị xã Mỹ Hào, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00921,BỆNH VIỆN ĐA KHOA TỈNH HƯNG YÊN,"Đường Hải Thượng Lãn Ông, phường An Tảo, thành phố Hưng Yên, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00922,BỆNH VIỆN BỆNH NHIỆT ĐỚI TỈNH HƯNG YÊN,"Phường Lam Sơn,thành phố Hưng Yên, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00924,BỆNH VIỆN SẢN NHI TỈNH HƯNG YÊN,"2 Tôn Thất Tùng, phường An Tảo, thành phố Hưng Yên, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00927,BỆNH VIỆN PHỔI TỈNH HƯNG YÊN,"Đường Phạm Bạch Hổ, phường Hiến Nam, thành phố Hưng Yên, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00933,BỆNH VIỆN TÂM THẦN TRUNG ƯƠNG 1,"Xã Hoà Bình, huyện Thường Tín, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00940,TRUNG TÂM Y TẾ HUYỆN KHOÁI CHÂU,"Thị trấn Khoái Châu, huyện Khoái Châu , tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00942,TRUNG TÂM Y TẾ HUYỆN PHÙ CỪ,"Thị trấn Trần Cao, huyện Phù Cừ, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00943,TRUNG TÂM Y TẾ HUYỆN TIÊN LỮ,"Thị Trấn Vương, huyện Tiên Lữ, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H00944,TRUNG TÂM Y TẾ HUYỆN VĂN GIANG,"Đường 179, thôn Vàng, xã Cửu Cao, huyện Văn Giang, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H01002,CỤC QUÂN Y,"276 Nghi Tàm, phường Quảng An, quận Tây Hồ, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H01024,BỆNH VIỆN ĐA KHOA HOÀNG VIỆT,"Tổ 10, phường Hưng Thành, thành phố Tuyên Quang, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H01025,BỆNH VIỆN VIỆT PHÚC SÀI GÒN,"87 Lý Chiêu Hoàng, phường 10, quận 6, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01027,BỆNH VIỆN ĐA KHOA HUYỆN VĂN GIANG,"Đường 179, thôn Vàng, xã Cửu Cao, huyện Văn Giang, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H01030,BỆNH VIỆN ĐA KHOA HOÀ BÌNH - HẢI DƯƠNG,"Phố Phạm Xuân Huân, phường Hải Tân, thành phố Hải Dương, tỉnh Hải Dương",Hải Dương,MD NORTH
+H01042,TRUNG TÂM Y TẾ HUYỆN THAN UYÊN,"Khu 4, thị trấn Than Uyên, huyện Than Uyên, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01067,PHÒNG KHÁM ĐA KHOA YÊN MỸ,"Thôn Lãng Cầu, xã Tân Việt, huyện Yên Mỹ, tỉnh Hưng Yên",HƯNG YÊN,MD NORTH
+H01081,BỆNH VIỆN THÁI BÌNH ĐA KHOA CHẤT LƯỢNG CAO,"104 Phan Bá Vành, phường Quang Trung, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01082,BỆNH VIỆN ĐẠI HỌC Y KHOA PHAN CHÂU TRINH,"09 Nguyễn Gia Thiều, phường Điện Ngọc, TX. Điện Bàn, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01098,BỆNH VIỆN ĐA KHOA HUYỆN BẢO THẮNG,"Thị trấn Phố Lu, huyện Bảo Thắng, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01102,BỆNH VIỆN SẢN NHI TỈNH LÀO CAI,"01 Võ Nguyên Giáp, phường Bình Minh, thành phố Lào Cai, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01105,BỆNH VIỆN ĐA KHOA HUYỆN BẮC HÀ,"Đường 20/9, thị trấn Bắc Hà, huyện Bắc Hà, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01107,BỆNH VIỆN ĐA KHOA HUYỆN VĂN BÀN,"Tổ dân phố số 5, thị trấn Khánh Yên, huyện Văn Bàn, Lào Cai",LÀO CAI,MD NORTH
+H01187,BỆNH VIỆN CHẤN THƯƠNG CHỈNH HÌNH NGHỆ AN,"Số 11, Đường Mai Hắc Đế, Thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01190,BỆNH VIỆN ĐA KHOA THÀNH PHỐ VINH,"161B, Nguyễn Phong Sắc, phường Hưng Dũng, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01193,BỆNH VIỆN ĐA KHOA AN PHÁT,"Đường Xô Viết Nghệ Tĩnh, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01194,BỆNH VIỆN ĐẠI HỌC Y KHOA VINH,"161B, Nguyễn Phong Sắc, phường Hưng Dũng, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01204,BỆNH VIỆN ĐA KHOA QUANG THÀNH,Khối Vĩnh Tân – phường Nghi Hương – thị xã Cửa Lò,NGHỆ AN,MD NORTH
+H01207,BỆNH VIỆN THÁI THƯỢNG HOÀNG,"19 Tôn Thất Tùng, phường Hưng Dũng, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01219,BỆNH VIỆN ĐA KHOA QUANG KHỞI,"Khối Tân Minh, thị trấn Nghĩa Đàn, huyện Nghĩa Đàn, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01222,BỆNH VIỆN GIAO THÔNG VẬN TẢI VINH,"28 Nguyễn Sỹ Sách, phường Hưng Bình, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01253,BỆNH VIỆN ĐA KHOA TỈNH NINH BÌNH,"Đường Tuệ Tĩnh, phường Nam Thành, thành phố Ninh Bình, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01256,TRUNG TÂM Y TẾ HUYỆN GIA VIỄN,"Phố Tiến Yết, thị Trấn Me, huyện Gia Viễn, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01267,SỞ Y TẾ TỈNH NINH BÌNH,"18 Kim Đồng, phường Phúc Thành, thành phố Ninh Bình, tỉnh Ninh Bình",NINH BÌNH,MD NORTH
+H01301,TRUNG TÂM Y TẾ HUYỆN CẨM KHÊ,"147 Hoa Khê, thị trấn Cẩm Khê, huyện Cẩm Khê, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01317,BỆNH VIỆN MẮT TỈNH PHÚ THỌ,"10 Nguyễn Du, phường Nông Trang, thành phố Việt Trì, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01318,BỆNH VIỆN SẢN NHI TỈNH PHÚ THỌ,"Nguyễn Tất Thành, phường Nông Trang, thành phố Việt Trì, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01362,TRUNG TÂM Y TẾ HUYỆN QUẢNG TRẠCH,"Thôn Hòa Bình, xã Quảng Hưng, huyện Quảng Trạch, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01363,TRUNG TÂM Y TẾ HUYỆN TUYÊN HÓA,"Tiểu khu Tam Đồng, thị trấn Đồng Lê, huyện Tuyên Hoá, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01572,BỆNH VIỆN ĐA KHOA NAM TIỀN HẢI,"Xã Nam Trung, huyện Tiền Hải, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01573,BỆNH VIỆN ĐA KHOA THÁI NINH,"Xã Thái Hưng, huyện Thái Thụy, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01588,SỞ Y TẾ TỈNH THÁI BÌNH," 239, Hai Bà Trưng, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01592,BỆNH VIỆN ĐA KHOA TỈNH THÁI BÌNH,"530 Lý Bôn, phường Quang Trung, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01593,BỆNH VIỆN ĐA KHOA HOÀNG AN,"786 Lý Bôn, phường Quang Trung, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01603,BỆNH VIỆN ĐA KHOA HUYỆN HƯNG HÀ,"Xã Minh Khai, huyện Hưng Hà, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+H01629,BỆNH VIỆN ĐA KHOA TRUNG ƯƠNG THÁI NGUYÊN," 479 Lương Ngọc Quyến, thành phố Thái Nguyên, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01634,BỆNH VIỆN QUỐC TẾ THÁI NGUYÊN,"328 Lương Ngọc Quyến, thành phố Thái Nguyên, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01653,BỆNH VIỆN ĐIỀU DƯỠNG PHỤC HỒI CHỨC NĂNG TRUNG ƯƠNG,"14 Nguyễn Du, phường Trường Sơn, thành phố Sầm Sơn, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01661,BỆNH VIỆN ĐA KHOA HẢI TIÊN,"Xã Hoằng Ngọc, huyện Hoằng Hóa, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01662,BỆNH VIỆN ĐA KHOA THANH HÀ,"Khu đô thị Bắc Đại Lộ Lê Lợi, Đông Hương, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01669,BỆNH VIỆN ĐA KHOA HỢP LỰC,"595 Nguyễn Chí Thanh, phường Đông Thọ, thành phố Thanh Hóa",THANH HÓA,MD NORTH
+H01678,BỆNH VIỆN ĐA KHOA KHU VỰC NGỌC LẶC ,"Lê Duẩn, thị trấn Ngọc Lặc, huyện Ngọc Lặc, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01685,BỆNH VIỆN PHỔI THANH HÓA ," 302 Nguyễn Hữu Cảnh, phường Quảng Thịnh, thành phố Thanh Hoá, tỉnh Thanh Hóa   ",THANH HÓA,MD NORTH
+H01690,BỆNH VIỆN NHI TỈNH THANH HÓA," 724 Quang Trung, phường Đông Vệ, thành phố Thanh Hóa",THANH HÓA,MD NORTH
+H01691,BỆNH VIỆN PHỤ SẢN TỈNH THANH HÓA,"183 Hải Thượng Lãn Ông, thành phố Thanh Hóa, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01692,BỆNH VIỆN UNG BƯỚU THANH HÓA,"958 Quang Trung, phường Đông Vệ, thành phố Thanh Hoá, tỉnh Thanh Hóa",THANH HÓA,MD NORTH
+H01698,TRUNG TÂM Y TẾ HUYỆN NÔNG CỐNG,"Xã Minh Thọ, thị trấn Nông Cống, huyện Nông Cống, tỉnh Thanh Hoá",THANH HÓA,MD NORTH
+H01931,BỆNH VIỆN ĐA KHOA TRÀ VINH," 399  Nguyễn Đáng, khóm 10, phường 7, thành phố Trà Vinh, tỉnh Trà Vinh",TRÀ VINH,MD MEKONG
+H01960,SỞ Y TẾ TỈNH TUYÊN QUANG," 01,  Đinh Tiên Hoàng, phường Tân Quang, thành phố Tuyên Quang, tỉnh Tuyên Quang",TUYÊN QUANG,MD NORTH
+H02012,TRUNG TÂM Y TẾ HUYỆN BÌNH XUYÊN,"Khu Phố I, thị trấn Hương Canh, huyện Bình Xuyên, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02046,BỆNH VIỆN PHỤC HỒI CHỨC NĂNG HÀ NỘI,"35 Lê Văn Thiêm, phường Thanh Xuân Trung, quận Thanh Xuân, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H02060,BỆNH VIỆN DÃ CHIẾN SỐ 14,"02 Trường Chinh, phường Tây Thạnh, quận Tân Phú, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02063,BỆNH VIỆN DÃ CHIẾN SỐ 16,"16 Đào Trí, phường Phú Nhuận, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02505,BỆNH VIỆN DÃ CHIẾN SỐ 6,"Phường An Khánh, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02511,BỆNH VIỆN MẮT HÀ NỘI THÁI BÌNH,"709 Lê Quý Đôn, phường Trần Lãm, thành phố Thái Bình, tỉnh Thái Bình",THÁI BÌNH,MD NORTH
+KHACHLE-02,CÔNG TY TNHH THƯƠNG MẠI VẠN MINH,"Số 10, Ngõ 281, phố Phương Mai, Phường Kim Liên, Quận Đống Đa",HÀ NỘI,MD NORTH
+KHACHLE-03,MR. DƯƠNG TUẤN ANH,Hà nội,HÀ NỘI,MD NORTH
+KHACHLE-06,CÔNG TY TNHH THIẾT BỊ Y TẾ G.O.Y.O.H VIỆT NAM,"T3, Tòa nhà ND, số 17, ngõ 82 phố Dịch Vọng Hậu, Phường Dịch Vọng Hậu, Quận Cầu Giấy",HÀ NỘI,MD NORTH
+KHACHLE-07,MIPEC,Hà nội,HÀ NỘI,MD NORTH
+KHACHLE-09,PHẠM THÙY LINH,Hà nội,HÀ NỘI,MD NORTH
+STOCK-NMC,STOCK-NMC,"No. 3 alley 117, Dang Tien Dong Street, Trung Liet Ward, Dong Da District",HÀ NỘI,MD NORTH
+DO01004_1,Baxter Healthcare (Asia) Pte. Ltd,Hồ Chí Minh,HỒ CHÍ MINH,MD SOUTH
+H00161,BỆNH VIỆN ĐA KHOA KHU VỰC BỒNG SƠN,"202 Quang Trung, phường Bồng Sơn, thị xã Hoài Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00174,TRUNG TÂM Y TẾ THỊ XÃ AN NHƠN,"01 Tôn Thất Tùng, phường Nhơn Hưng, thị xã An Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00244,BỆNH VIỆN ĐA KHOA AN PHƯỚC,"235 Trần Phú, phường Phú Trinh, thành phố Phan Thiết, tỉnh Bình Thuận",BÌNH THUẬN,MD SOUTH
+H00247,BỆNH VIỆN ĐA KHOA TỈNH BÌNH THUẬN,"1 Tôn Thất Bách, phường Phú Tài, thành phố Phan Thiết, tỉnh Bình Thuận",BÌNH THUẬN,MD SOUTH
+H00402,BỆNH VIỆN ĐA KHOA ĐẠI HỌC TÂY NGUYÊN,"567 Lê Duẩn, phường Ea Tam, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00410,BỆNH VIỆN ĐA KHOA THIỆN HẠNH,"17 Nguyễn Chí Thanh, phường Tân An, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00528,BỆNH VIỆN 311,"818 Phạm Văn Đồng, phườngYên Thế, thành phố Pleiku, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00530,BỆNH VIỆN NHI TỈNH GIA LAI,"Thôn 6, đường Cách Mạng Tháng 8, xã Trà Đa, thành phố Pleiku, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H01070,BỆNH VIỆN THẨM MỸ NGỌC DUNG,"33 Nguyễn Bỉnh Khiêm, phường Đa Kao, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01077,BỆNH VIỆN SÀI GÒN YOUNG,"26 Huỳnh Đình Hai, phường 24, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01151,TRUNG TÂM Y TẾ HUYỆN TÂN HƯNG,"2 đường 3/2, thị trấn Tân Hưng, huyện Tân Hưng, tỉnh Long An",LONG AN,MD MEKONG
+H01416,BỆNH VIỆN ĐA KHOA TƯ NHÂN PHÚC HƯNG,"06 Cao Bá Quát, phường Nghĩa Chánh, thành phố Quảng Ngãi, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01425,BỆNH VIỆN SẢN NHI TỈNH QUẢNG NGÃI,"184 Đại lộ Hùng Vương, P. Trần Phú, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01720,BỆNH VIỆN CTCH PHẪU THUẬT TẠO HÌNH HUẾ,"102 Phạm Văn Đồng, phường Vỹ Dạ, thành phố Huế, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01765,BỆNH VIỆN NHIỆT ĐỚI THÀNH PHỐ HỒ CHÍ MINH,"764 Võ Văn Kiệt, phường 1, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01778,BỆNH VIỆN DA LIỄU THÀNH PHỐ HỒ CHÍ MINH,"2 Nguyễn Thông, phường 6, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01785,BỆNH VIỆN ĐA KHOA KHU VỰC CỦ CHI,"9A Nguyễn Văn Hoài, ấp Bàu Tre 2, xã Tân An Hội, huyện Củ Chi, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01789,BỆNH VIỆN THÂN DÂN,"686 Trần Hưng Đạo, phường 2, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01795,NHA KHOA THIÊN SỨ,"94-96A Trần Hưng Đạo, phường Phạm Ngũ Lão, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01796,BỆNH VIỆN THẨM MỸ NGÔ MỘNG HÙNG,"219B-221 Nguyễn Đình Chiểu, phường 5, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01824,BỆNH VIỆN ĐA KHOA VẠN HẠNH,"781/B1-B3-B5 Lê Hồng Phong nối dài, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01830,PHÒNG KHÁM ĐẠI HỌC Y DƯỢC THÀNH PHỐ HỒ CHÍ MINH,"20-22 Dương Quang Trung, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01856,BỆNH VIỆN NHI ĐỒNG 1,"341 Sư Vạn Hạnh, phường 10, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01869,BỆNH VIỆN QUẬN 6,"02D Chợ Lớn, phường 11, quận 6, thành hố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01886,BỆNH VIỆN ĐA KHOA QUỐC ÁNH,"104-110 đường 54 (Quốc lộ 1A), khu dân cư Tân Tạo, phường Tân Tạo, quận Bình Tân",HỒ CHÍ MINH,MD SOUTH
+H01887,BỆNH VIỆN QUỐC TẾ CITY (CIH),"3 đường 17A, phường Bình Trị Đông B, quận Bình Tân, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02072,CÔNG TY TNHH BỆNH VIỆN NGOẠI KHOA SÀI GÒN,"11A Đinh Bộ Lĩnh, phường 24, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02075,BỆNH VIỆN THẨM MỸ THU CÚC,"218 Điện Biên Phủ, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02083,BỆNH VIỆN THẨM MỸ QUỐC TẾ JT ANGEL,"852-852A, An Dương Vương, phường 13, quận 6, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02512,CÔNG TY TNHH TRUNG TÂM MẮT QUỐC TẾ PHƯƠNG ĐÔNG,"Số 71-73 Ngô Thời Nhiệm, phường Võ Thị Sáu, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+KHACHLE-01,KHÁCH LẺ,Hồ Chí Minh,HỒ CHÍ MINH,MD SOUTH
+KHACHLE-04,KHÁCH LẺ,Hồ Chí Minh,HỒ CHÍ MINH,MD SOUTH
+KHACHLE-11,CÔNG TY TNHH DỊCH VỤ VÀ ĐẦU TƯ HOÀNG AN,"Lầu 3, Tòa nhà Văn phòng, số 47-49-51 Phùng Khắc Khoan, Phường Đa Kao, Quận 1",HỒ CHÍ MINH,MD CENTRAL
+H00705,BỆNH VIỆN HỖ TRỢ SINH SẢN VÀ NAM HỌC ĐỨC PHÚC,"48 Ô Đồng Lầm, phường Phương Liên, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H01840,BỆNH VIỆN HUYỆN BÌNH CHÁNH,"1 Đường số 1, khu trung tâm hành chính huyện , thị trấn Tân Túc, huyện Bình Chánh",HỒ CHÍ MINH,MD SOUTH
+H00179,TRUNG TÂM Y TẾ HUYỆN BẢO THẮNG," Đường Cách Mạng Tháng 8, huyện Bảo Thắng, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H00182,TRUNG TÂM Y TẾ HUYỆN SA PA,"Tổ 1, phường Sa Pả, thị xã Sa Pa, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H00202,TRUNG TÂM Y TẾ HUYỆN VĂN BÀN,"Khối 5, đường Chiềng On, phường Bình Minh, thành phố Lào Cai",LÀO CAI,MD NORTH
+H00457,BỆNH VIỆN ĐA KHOA TỈNH ĐIỆN BIÊN,"Phường Noong Bua, thành phố Điện Biên Phủ, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00458,TRUNG TÂM Y TẾ THỊ XÃ MƯỜNG LAY,"Tổ 6, phường Na Lay, thị xã Mường Lay, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00460,SỞ Y TẾ TỈNH ĐIỆN BIÊN,"Số 251c, tổ 6, phường Noong Bua, thành phố Điện Biên Phủ, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00468,TRUNG TÂM Y TẾ HUYỆN ĐIỆN BIÊN,"Thôn Trại Giống, xã Thanh An, huyện Điện Biên, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00469,TRUNG TÂM Y TẾ HUYỆN ĐIỆN BIÊN ĐÔNG,"Thị trấn Điện Biên Đông, huyện Điện Biên Đông, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00470,TRUNG TÂM Y TẾ HUYỆN MƯỜNG ẢNG,"Khối 3, thị trấn Mường Ảng, huyện Mường Ảng, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00471,TRUNG TÂM Y TẾ HUYỆN MƯỜNG CHÀ,"Tổ 14, thị trấn Mường Chà, huyện Mường Chà, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00472,TRUNG TÂM Y TẾ HUYỆN MƯỜNG NHÉ,"Tổ 1, xã Mường Nhé, huyện Mường Nhé, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00474,TRUNG TÂM Y TẾ HUYỆN TỦA CHÙA,"Tổ dân phố Tân Phong, thị trấn Tủa Chùa, huyện Tủa Chùa, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00475,TRUNG TÂM Y TẾ HUYỆN TUẦN GIÁO,"Khối Trường Xuân, thị trấn Tuần Giáo, huyện Tuần Giáo, tỉnh Điện Biên",ĐIỆN BIÊN,MD NORTH
+H00614,BỆNH VIỆN 198 BỘ CÔNG AN,"09 Trần Bình, phường Mai Dịch, quận Cầu Giấy, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00625,BỆNH VIỆN Y HỌC CỔ TRUYỀN BỘ CÔNG AN,"278 Lương Thế Vinh, phường Trung Văn, quận Nam Từ Liêm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00634,BỆNH VIỆN LÃO KHOA TRUNG ƯƠNG,"1A Phương Mai, phường Phương Mai, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00637,BỆNH VIỆN BƯU ĐIỆN,"49 Trần Điền, phường Định Công, quận Hoàng Mai, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00659,BỆNH VIỆN ĐA KHOA QUỐC TẾ BẮC HÀ,"137 Nguyễn Văn Cừ, phường Long Biên, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00670,BỆNH VIỆN ĐẠI HỌC Y HÀ NỘI,"01 Tôn Thất Tùng, phường Kim Liên, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00680,BỆNH VIỆN K,"43 Quán Sứ, phường Hàng Bông, quận Hoàn Kiếm, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00697,BỆNH VIỆN NHI TRUNG ƯƠNG,"Số 18 ngõ 879 đường La Thành, phường Láng Thượng, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00712,BỆNH VIỆN ĐA KHOA NÔNG NGHIỆP,"Km13+500, xã Ngọc Hồi, huyện Thanh Trì, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00778,BỆNH VIỆN ĐA KHOA TỈNH HÀ TĨNH,"75 Hải Thượng Lãn Ông, thành phố Hà Tĩnh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00786,SỞ Y TẾ TỈNH HÀ TĨNH,"09 Nguyễn Huy Oánh, phường Nguyễn Du, thành phố Hà Tĩnh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00796,BỆNH VIỆN ĐA KHOA TỈNH HẢI DƯƠNG,"225 Nguyễn Lương Bằng, phường Thanh Trung, thành phố Hải Dương",HẢI DƯƠNG,MD NORTH
+H00802,BỆNH VIỆN PHỔI HẢI DƯƠNG,"01 Thanh Bình, phường Thanh Bình, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00803,BỆNH VIỆN NHI HẢI DƯƠNG,"Thôn Thanh Xá, xã Liên Hồng, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00804,BỆNH VIỆN PHỤ SẢN HẢI DƯƠNG," 225 Nguyễn Lương Bằng, phường Thanh Bình, thành phố Hải Dương",HẢI DƯƠNG,MD NORTH
+H00809,BỆNH VIỆN ĐẠI HỌC KỸ THUẬT Y TẾ HẢI DƯƠNG,"229 Nguyễn Lương Bằng, phường Thanh Bình, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00812,SỞ Y TẾ TỈNH HẢI DƯƠNG,"42 Quang Trung, phường Quang Trung, thành phố Hải Dương, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00814,TRUNG TÂM Y TẾ HUYỆN CẨM GIÀNG,"Phố Ghẽ, xã Tân Trường, huyện Cẩm Giàng, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00816,TRUNG TÂM Y TẾ HUYỆN THANH HÀ,"Khu 5, thị trấn Thanh Hà, huyện Thanh Hà, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00823,TRUNG TÂM Y TẾ HUYỆN NINH GIANG,"Khu 6, thị trấn Ninh Giang, huyện Ninh Giang, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00824,TRUNG TÂM Y TẾ HUYỆN THANH MIỆN,"Thị trấn Thanh Miện, huyện Thanh Miện, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00825,TRUNG TÂM Y TẾ HUYỆN GIA LỘC,"56 Nguyễn Chế Nghĩa, thị trấn Gia Lộc, huyện Gia Lộc, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H00828,TRUNG TÂM Y TẾ HUYỆN TỨ KỲ,"40 Phan Bội Châu, thị trấn Tứ Kỳ, huyện Tứ Kỳ, tỉnh Hải Dương",HẢI DƯƠNG,MD NORTH
+H01003,BỆNH VIỆN QUỐC TẾ SẢN NHI HẢI PHÒNG,"124 Nguyễn Đức Cảnh, phường Cát Dài, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H01031,BỆNH VIỆN PHỔI TỈNH LAI CHÂU,"Tổ 22, phường Đông Phong, thành Phố Lai Châu, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01033,SỞ Y TẾ TỈNH LAI CHÂU,"Tổ 22, phường Đông Phong, thành Phố Lai Châu, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01035,BỆNH VIỆN ĐA KHOA THÀNH PHỐ LÀO CAI,"393A đường Điện Biên, phường Cốc Lếu, thành phố Lào Cai, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01038,TRUNG TÂM Y TẾ HUYỆN TAM ĐƯỜNG,"Thị trấn Tam Đường, huyện Tam Đường, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01040,TRUNG TÂM Y TẾ HUYỆN SÌN HỒ,"Khu 3, thị trấn Sìn Hồ, huyện Sìn Hồ, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01045,TRUNG TÂM Y TẾ HUYỆN NẬM NHÙN,"Thị trấn Nậm Nhùn, huyện Nậm Nhùn, tỉnh Lai Châu",LAI CHÂU,MD NORTH
+H01099,BỆNH VIỆN ĐA KHOA HUYỆN SA PA,"Tổ 1, phường Sa Pả, thị xã Sa Pa, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01100,BỆNH VIỆN ĐA KHOA TỈNH LÀO CAI,"Đường Chiềng On, phường Bình Minh, thành phố Lào Cai",LÀO CAI,MD NORTH
+H01106,BỆNH VIỆN ĐA KHOA HUYỆN SI MA CAI,"Phố Cũ, thị trấn Si Ma Cai, huyện Si Ma Cai, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01108,TRUNG TÂM Y TẾ HUYỆN BẢO YÊN,"Tổ 3A, thị trấn Phố Ràng, huyện Bảo Yên, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01109,TRUNG TÂM Y TẾ HUYỆN BÁT XÁT,"Thị trấn Bát Xát, huyện Bát Xát, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01111,TRUNG TÂM Y TẾ HUYỆN MƯỜNG KHƯƠNG ,"Thị trấn Mường Khương, huyện Mường Khương, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01114,SỞ Y TẾ TỈNH LÀO CAI,"Khối 5, đường Chiềng On, phường Bình Minh, thành phố Lào Cai",LÀO CAI,MD NORTH
+H01117,BỆNH VIỆN Y HỌC CỔ TRUYỀN TỈNH LÀO CAI,"Đường K3, tiểu khu đô thị 5, phường Bắc Cường, thành phố Lào Cai, tỉnh Lào Cai",LÀO CAI,MD NORTH
+H01188,BỆNH VIỆN ĐA KHOA 115 NGHỆ AN,"Đường Lê Viết Thuật, xã Hưng Lộc, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01192,BỆNH VIỆN NỘI TIẾT TỈNH NGHỆ AN,"Km số 5, Đại lộ Lê Nin, phường Nghi Phú, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01198,TRUNG TÂM Y TẾ HUYỆN HƯNG NGUYÊN,"Khối 6a, thị trấn Anh Sơn, huyện Anh Sơn, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01201,BỆNH VIỆN ĐA KHOA HUYỆN QUỲNH LƯU,"Xã Thạch Giám, huyện Tương Dương, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01202,BỆNH VIỆN ĐA KHOA HUYỆN ĐÔ LƯƠNG,"Xóm 2, xã Tăng Thành, huyện Yên Thành, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01205,BỆNH VIỆN ĐA KHOA HUYỆN THANH CHƯƠNG,"18 Trường Thi, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01210,BỆNH VIỆN ĐA KHOA KHU VỰC TÂY NAM NGHỆ AN,"Thị trấn Thanh Chương, huyện Thanh Chương, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01213,BỆNH VIỆN PHỔI NGHỆ AN,"Xóm Hiếu Thành, xã Tây Hiếu, thị xã Thái Hoà, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01216,BỆNH VIỆN QUÂN Y 4,"Bản Khe Tỳ, xã Hữu Kiệm, huyện Kỳ Sơn, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01218,BỆNH VIỆN SẢN NHI NGHỆ AN,"178 Trần Phú, phường Hồng Sơn, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01220,SỞ Y TẾ TỈNH NGHỆ AN,"150 Nguyễn Phong Sắc, phường Hưng Dũng, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01230,BỆNH VIỆN ĐA KHOA HUYỆN YÊN THÀNH,"Xóm 14, xã Diễn Yên, huyện Diễn Châu, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01231,BỆNH VIỆN ĐA KHOA KHU VỰC TÂY BẮC NGHỆ AN,"Xóm 8, xã Nghi Thịnh, huyện Nghi Lộc, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01234,TRUNG TÂM Y TẾ THỊ XÃ HOÀNG MAI,"Đường Xô Viết Nghệ Tĩnh, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01235,TRUNG TÂM Y TẾ HUYỆN KỲ SƠN,"99 đường Phạm Đình Toái, xã Nghi Phú, thành phố Vinh, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01236,TRUNG TÂM Y TẾ HUYỆN NAM ĐÀN,"Khối Nam Sơn, thị trấn Kim Sơn, huyện Quế Phong, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01238,TRUNG TÂM Y TẾ HUYỆN NGHĨA ĐÀN,"Khối Quang Trung, thị trấn Nam Đàn, huyện Nam Đàn, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01240,TRUNG TÂM Y TẾ HUYỆN QUỲ CHÂU,"Khối 10, thị trấn Tân Kỳ, huyện Tân Kỳ, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01241,TRUNG TÂM Y TẾ HUYỆN QUỲ HỢP,"Khối Bắc Mỹ, phường Quỳnh Thiện, thị xã Hoàng Mai, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01242,TRUNG TÂM Y TẾ HUYỆN TÂN KỲ,"Khối 1, thị trấn Tân Kỳ, huyện Tân Kỳ, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01246,TRUNG TÂM Y TẾ THỊ XÃ CỬA LÒ,"Khối Thịnh Mỹ, P. Quỳnh Thiện, TX Hoàng Mai, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01248,BỆNH VIỆN PHONG - DA LIỄU TRUNG ƯƠNG QUỲNH LẬP,"Khối 7, thị trấn Hưng Nguyên, huyện Hưng Nguyên, tỉnh Nghệ An",NGHỆ AN,MD NORTH
+H01314,TRUNG TÂM Y TẾ HUYỆN TAM NÔNG ,"Khu 24 xã Vạn Xuân, huyện Tam Nông, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01316,TRUNG TÂM Y TẾ HUYỆN THANH THUỶ,"Khu 5, thị trấn Thanh Thủy, huyện Thanh Thủy, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01321,SỞ Y TẾ TỈNH PHÚ THỌ,"Đường Trần Phú, phường Gia Cẩm, thành phố Việt Trì, tỉnh Phú Thọ",PHÚ THỌ,MD NORTH
+H01616,BỆNH VIỆN A THÁI NGUYÊN," Quang Trung, phường Thịnh Đán, thành phố Thái Nguyên, Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01617,BỆNH VIỆN C THÁI NGUYÊN,"595  Trần Hưng Đạo, Phố Cò, Sông Công, Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01623,BỆNH VIỆN GANG THÉP THÁI NGUYÊN,"Tổ 28, phường Trung Thành, thành phố Thái Nguyên, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01632,SỞ Y TẾ TỈNH THÁI NGUYÊN," 143  Phùng Chí Kiên, phường Túc Duyên, thành phố Thái Nguyên, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01645,TRUNG TÂM Y TẾ THÀNH PHỐ PHỔ YÊN,"Tổ dân phố 4, phường Ba Hàng, huyện Phổ Yên, tỉnh Thái Nguyên",THÁI NGUYÊN,MD NORTH
+H01993,BỆNH VIỆN 74 TRUNG ƯƠNG," phường Hùng Vương, thành phố Phúc Yên, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H01994,TRUNG TÂM Y TẾ HUYỆN YÊN LẠC,"230  Dương Tĩnh, thị trấn Yên Lạc, huyện Yên Lạc, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H01995,BỆNH VIỆN ĐA KHOA KHU VỰC PHÚC YÊN,"Tổ 1 phường Hùng Vương, Phúc Yên, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H01997,BỆNH VIỆN ĐA KHOA TỈNH VĨNH PHÚC," 1 Tôn Thất Tùng, Liên Bảo, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H01998,TRUNG TÂM Y TẾ THÀNH PHỐ VĨNH YÊN," 2  Phạm Văn Đồng, Tích Sơn, Vĩnh Yên, Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02002,BỆNH VIỆN QUÂN Y 109,"Tô Hiến Thành, phường Đồng Tâm, thành phố Vĩnh Yên, Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02003,SỞ Y TẾ TỈNH VĨNH PHÚC," 12  Hai Bà Trưng, phường Đống Đa, thành phố Vĩnh Yên, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02006,BỆNH VIỆN SẢN NHI TỈNH VĨNH PHÚC,"Km 9 quốc lộ 2, đoạn đường tránh Vĩnh Yên, xã Đồng Văn, huyện Yên Lạc, Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02013,TRUNG TÂM Y TẾ HUYỆN SÔNG LÔ,"Lũng Gì, Nhạo Sơn, huyện Sông Lô, tỉnh Vĩnh Phúc",VĨNH PHÚC,MD NORTH
+H02017,BỆNH VIỆN ĐA KHOA KHU VỰC NGHĨA LỘ,"Tổ 2, phường Pú Trạng, thị xã Nghĩa Lộ, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02021,BỆNH VIỆN PHỔI YÊN BÁI,"Thôn Tiền Phong, xã Giới Phiên, thành phố Yên Bái, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02022,SỞ Y TẾ TỈNH YÊN BÁI," 656 Yên Ninh, thành phố Yên Bái, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02035,TRUNG TÂM Y TẾ HUYỆN TRẤN YÊN,"Tổ dân phố 7, thị trấn Cổ Phúc, huyện Trấn Yên, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02036,TRUNG TÂM Y TẾ HUYỆN VĂN CHẤN,"Tổ dân phố 9, TTNT Trần Phú, huyện Văn Chấn, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02040,TRUNG TÂM Y TẾ HUYỆN YÊN BÌNH,"Thôn Thanh Bình, xã Phú Thịnh,huyện Yên Bình, tỉnh Yên Bái",YÊN BÁI,MD NORTH
+H02081,BỆNH VIỆN ĐA KHOA QUỐC TẾ HẢI PHÒNG VĨNH BẢO,"Khu phố Tân Hòa (chân cầu Nhân Mục), thị trấn Vĩnh Bảo, huyện Vĩnh Bảo, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H00423,TRUNG TÂM Y TẾ HUYỆN ĐẮK R'LẤP,"Tổ dân phố 9, thị trấn Kiến Đức, huyện Đắk R'lấp, tỉnh Đắk Nông",ĐẮK NÔNG,MD SOUTH
+H00441,TRUNG TÂM Y TẾ HUYỆN ĐẮK SONG,"Tổ 1, thị trấn Đức An, huyện Đắk Song, tỉnh Đắk Nông",ĐẮK NÔNG,MD SOUTH
+H00443,SỞ Y TẾ TỈNH ĐẮK NÔNG,"Đường Trần Hưng Đạo, phường Nghĩa Tân, thành phố Gia Nghĩa, tỉnh Đắk Nông",ĐẮK NÔNG,MD SOUTH
+H00846,BỆNH VIỆN ĐA KHOA QUỐC TẾ HẢI PHÒNG,"124 Nguyễn Đức Cảnh, phường Cát Dài, quận Lê Chân, thành phố Hải Phòng",HẢI PHÒNG,MD NORTH
+H01049,SỞ Y TẾ TỈNH LÂM ĐỒNG,"Tầng 2 trung tâm hành chính tỉnh, 36 Trần Phú, phường 4, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01347,BỆNH VIỆN ĐA KHOA KHU VỰC BẮC QUẢNG BÌNH,"Phường Quảng Thọ, thị xã Ba Đồn, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01364,SỞ Y TẾ TỈNH QUẢNG BÌNH,"02 Hồ Xuân Hương, thành phố Đồng Hới, tỉnh Quảng Bình",QUẢNG BÌNH,MD CENTRAL
+H01409,SỞ Y TẾ TỈNH QUẢNG NAM,"15 Trần Hưng Đạo, phường Tân Thạnh, thị xã Tam Kỳ, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01476,SỞ Y TẾ TỈNH QUẢNG TRỊ,"34 Trần Hưng Đạo, phường 1, thành phố Đông Hà, tỉnh Quảng Tr",QUẢNG TRỊ,MD CENTRAL
+H01710,BỆNH VIỆN TRUNG ƯƠNG HUẾ - CƠ SỞ 2,"Phong An, Phong Điền, Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01712,BỆNH VIỆN PHỔI TỈNH THỪA THIÊN HUẾ,"Nguyễn Văn Linh, phường Hương Sơ, thành phố Huế, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01719,SỞ Y TẾ TỈNH THỪA THIÊN HUẾ,"Khu Hành chính tập trung tỉnh, đường Võ Nguyên Giáp, phường Xuân Phú, thành phố Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01732,TRUNG TÂM Y TẾ HUYỆN HƯƠNG THUỶ,"02 Quang Trung, Thị xã Hương Thủy, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01872,BỆNH VIỆN ĐA KHOA LÊ VĂN VIỆT,"387 Lê Văn Việt, khu phố 2, phường Tăng Nhơn Phú A, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01921,CÔNG TY VP BỆNH VIỆN Y DƯỢC SÀI GÒN,"407 Đỗ Xuân Hợp, phường Phước Long B, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02509,BỆNH VIỆN DÃ CHIẾN SỐ 13,"Thị xã Kiến Tường, tỉnh Long An",LONG AN,MD MEKONG
+H02510,BỆNH VIỆN ĐA KHOA HỒNG PHÁT,"219 Lê Duẩn, phường Nguyễn Du, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00404,BỆNH VIỆN ĐẠI HỌC Y DƯỢC BUÔN MÊ THUỘT,"298 Hà Huy Tập, phường Tân An, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H01919,BỆNH VIỆN UNG BƯỚU 2 THÀNH PHỐ HỒ CHÍ MINH ,"12 đường 400, khu phố 3, phường Tân Phú, thành phố Thủ Đức, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H00972,TRƯỜNG ĐẠI HỌC Y DƯỢC BUÔN MA THUỘT,"298 Hà Huy Tập, phường Tân An, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+DL01038,VPĐD Baxter Việt Nam,"P.801 #8 Tháp A TN Royal Centre 235 Nguyễn Văn Cừ, Quận 1",HỒ CHÍ MINH,MD SOUTH
+H00641,BỆNH VIỆN ĐA KHOA BẢO SƠN,"52 Nguyễn Chí Thanh, phường Láng Thượng, quận Đống Đa, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00661,BỆNH VIỆN ĐA KHOA QUỐC TẾ THU CÚC,"286-294 Thụy Khuê, phường Thụy Khuê, quận Tây Hồ, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00699,BỆNH VIỆN PHỤ SẢN AN THỊNH,"496 Bạch Mai, phường Trương Định, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00709,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC TIMES CITY,"458 Minh Khai, Khu đô thị Times City, quận Hai Bà Trưng, thành phố Hà Nội",HÀ NỘI,MD NORTH
+H00726,BỆNH VIỆN UNG BƯỚU HƯNG VIỆT,"34 Đại Cồ Việt, phường Lê Đại Hành, quận Hai Bà Trưng, thành phố Hà Nội ",HÀ NỘI,MD NORTH
+H01079,BỆNH VIỆN ĐA KHOA QUỐC TẾ VINMEC SMART CITY,"KĐT mới Tây Mỗ - Đại Mỗ - Vinhomes Park, đường Tây Mỗ, phường Tây Mỗ, quận Nam Từ Liêm",HÀ NỘI,MD NORTH
+H01080,BỆNH VIỆN ĐA KHOA HỒNG HÀ HÀ TĨNH,"46 Phan Kính, phường Nam Hồng, thị xã Hồng Lĩnh, tỉnh Hà Tĩnh",HÀ TĨNH,MD NORTH
+H00221,BỆNH VIỆN ĐA KHOA TỈNH BÌNH PHƯỚC,"Quốc lộ 14, phường Tiến Thành, thành phố Đồng Xoài, tỉnh Bình Phước.",BÌNH PHƯỚC,MD SOUTH
+H00238,BỆNH VIỆN ĐA KHOA CAO SU LỘC NINH,"Khu phố Ninh Thuận, thị trấn Lộc Ninh, huyện Lộc Ninh, tỉnh Bình Phước",BÌNH PHƯỚC,MD SOUTH
+H00239,TRUNG TÂM Y TẾ HUYỆN LỘC NINH,"Khu phố Ninh Hoà, thị trấn Lộc Ninh, huyện Lộc Ninh, tỉnh Bình Phước",BÌNH PHƯỚC,MD SOUTH
+H00401,BỆNH VIỆN ĐA KHOA CAO NGUYÊN,"43 Ngô Gia Tự, phường Tân An, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00412,BỆNH VIỆN ĐA KHOA KHU VỰC 333,"Thôn 1, xã Ea Đar, huyện Ea Kar, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00426,TRUNG TÂM Y TẾ HUYỆN EA SÚP,"Thị trấn Ea Súp, huyện Ea Súp, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00428,TRUNG TÂM Y TẾ HUYỆN KRÔNG BÔNG,"Thị trấn Krông Kma, huyện Krông Bông, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00433,TRUNG TÂM Y TẾ HUYỆN M'DRĂK,"246 Nguyễn Tất Thành, huyện M’Đrắk, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00442,BỆNH VIỆN ĐA KHOA TỈNH ĐẮK NÔNG,"Tổ 4, phường Nghĩa Trung, thành phố Gia Nghĩa, tỉnh Đắk Nông",ĐẮK NÔNG,MD SOUTH
+H00527,BỆNH VIỆN ĐA KHOA TỈNH GIA LAI,"132 Tôn Thất Tùng, phường Phù Đổng, thành phố Pleiku, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00536,TRUNG TÂM Y TẾ THỊ XÃ AN KHÊ,"Tổ 2, phường An Phú, thị xã An Khê, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00537,TRUNG TÂM Y TẾ THÀNH PHỐ PLEIKU,"17 Trần Quốc Toản, phường Yên Đỗ, thành phố Pleiku, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00540,TRUNG TÂM Y TẾ THỊ XÃ AYUNPA,"89 Nguyễn Huệ, phường Hòa Bình, thị xã Ayun Pa, tỉnh Gia lai",GIA LAI,MD SOUTH
+H00545,TRUNG TÂM Y TẾ HUYỆN MANG YANG,"Đường Tuệ Tĩnh, tổ 6, thị trấn Kon Dỡng, huyện Mang Yang, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00561,TRUNG TÂM Y TẾ HUYỆN IA PA,"Xã Kim Tân, huyện Ia Pa, tỉnh Gia Lai",GIA LAI,MD SOUTH
+H00845,TRƯỜNG CAO ĐẲNG Y TẾ LÂM ĐỒNG,"16 Ngô Quyền, phường 6, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H00883,BỆNH VIỆN ĐA KHOA TỈNH HẬU GIANG,"647 Trần Hưng Đạo, khu vực 4, phường 3, thành phố Vị Thanh, tỉnh Hậu Giang",HẬU GIANG,MD MEKONG
+H00889,BỆNH VIỆN SẢN NHI PHÚ YÊN,"270 Trần Hưng Đạo, Phường 6, Tuy Hòa, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H00934,TRƯỜNG TRUNG CẤP Y TẾ ĐẮK LẮK,"32 Y Ngông, phường Tân Tiến, thành phố Buôn Ma Thuột, tỉnh Đắk Lắk",ĐẮK LẮK,MD SOUTH
+H00948,BỆNH VIỆN 22-12,"34/4 Nguyễn Thiện Thuật, phường Tân Lập, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00954,BỆNH VIỆN QUÂN Y 87,"78 Tuệ Tĩnh, phường Lộc Thọ, thành phố Nha Trang, tỉnh Khánh Hòa",KHÁNH HÒA,MD SOUTH
+H00970,PIRAMAL CRITICAL CARE INC.,Hồ Chí Minh,HỒ CHÍ MINH,MD SOUTH
+H01007,BỆNH VIỆN ĐA KHOA TỈNH KON TUM,"224 Bà Triệu, phường Quang Trung, thành phố Kon Tum, tỉnh Kon Tum",KON TUM,MD SOUTH
+H01012,BỆNH VIỆN ĐA KHOA KHU VỰC NGỌC HỒI,"58 Nguyễn Huệ, thị trấn Plei Kần, huyện Ngọc Hồi, tỉnh Kon Tum",KON TUM,MD SOUTH
+H01021,TRUNG TÂM Y TẾ HUYỆN ĐĂK HÀ,"05 Đào Duy Từ, thị trấn Đăk Hà, huyện Đăk Hà, tỉnh Kon Tum",KON TUM,MD SOUTH
+H01046,BỆNH VIỆN 2 LÂM ĐỒNG," 263 Trần Quốc Toản, phường B’Lao, thành phố Bảo Lộc, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01048,BỆNH VIỆN ĐA KHOA TỈNH LÂM ĐỒNG,"01 Phạm Ngọc Thạch, phường 6, thành phố Đà Lạt, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01053,TRUNG TÂM Y TẾ HUYỆN LÂM HÀ,"Thị trấn Đinh Văn, huyện Lâm Hà, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01059,TRUNG TÂM Y TẾ HUYỆN CÁT TIÊN,"Tổ dân phố 1, thị trấn Cát Tiên, huyện Cát Tiên, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01060,TRUNG TÂM Y TẾ HUYỆN DI LINH,"20 Phạm Ngọc Thạch, thị trấn Di Linh, huyện Di Linh, tỉnh Lâm Đồng",LÂM ĐỒNG,MD SOUTH
+H01122,BỆNH VIỆN ĐA KHOA KHU VỰC CẦN GIUỘC ,"87 Nguyễn An Ninh, khu phố Phước Thuận, thị trấn Cần Giuộc, huyện Cần Giuộc, tỉnh Long An",LONG AN,MD MEKONG
+H01123,BỆNH VIỆN ĐA KHOA KHU VỰC ĐỒNG THÁP MƯỜI,"65 Nguyễn Tri Phương, khu phố 5, phường 1, thị xã Kiến Tường, tỉnh Long An",LONG AN,MD MEKONG
+H01124,BỆNH VIỆN ĐA KHOA KHU VỰC HẬU NGHĨA ,"Ấp Tân Bình, xã Hòa Khánh Tây, huyện Đức Hòa, tỉnh Long An",LONG AN,MD MEKONG
+H01325,BỆNH VIỆN ĐA KHOA TỈNH PHÚ YÊN,"15 Nguyễn Hữu Thọ, Phường 9, thành phố Tuy Hòa, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01329,BỆNH VIỆN SẢN NHI TỈNH PHÚ YÊN ,"270 Trần Hưng Đạo, Phường 6, Tuy Hòa, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01331,TRUNG TÂM Y TẾ HUYỆN ĐỒNG XUÂN,"109A Trần Phú, thôn Long Thăng, thị trấn La Hai, huyện Đồng Xuân, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01333,TRUNG TÂM Y TẾ HUYỆN SÔNG HINH,"Khu Phố 5, thị trấn Hai Riêng, huyện Sông Hinh, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01334,TRUNG TÂM Y TẾ HUYỆN SƠN HÒA,"67 Nguyễn Chí Thanh, Thị trấn Củng Sơn, huyện Sơn Hoà, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01335,TRUNG TÂM Y TẾ HUYỆN TÂY HÒA,"Khu phố Phú Thứ, Thị trấn Phú Thứ, huyện Tây Hoà, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01336,TRUNG TÂM Y TẾ HUYỆN TUY AN,"Khu phố Trường Xuân, Thị trấn Chí Thạnh, huyện Tuy An, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H01762,BỆNH VIỆN 30 THÁNG 4,"9 Sư Vạn Hạnh, phường 9, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01792,BỆNH VIỆN ĐA KHOA MỸ ĐỨC,"4 Núi Thành, phường 13, quận Tân Bình, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01821,BỆNH VIỆN ĐA KHOA TÂN HƯNG,"871 Trần Xuân Soạn, phường Tân Hưng, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01829,BỆNH VIỆN ĐẠI HỌC Y DƯỢC TP HỒ CHÍ MINH - CS 3,"221B Hoàng Văn Thụ, phường 8, quận Phú Nhuận, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01837,BỆNH VIỆN ĐA KHOA HỒNG ĐỨC - CƠ SỞ 2,"259 An Phú Đông 3, khu phố 5, phường An Phú Đông, quận 12, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01844,PHÒNG KHÁM ĐKQT INTERNATIONAL SOS HỒ CHÍ MINH,"167A Nam Kỳ Khởi Nghĩa, phường 7, quận 3, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01855,BỆNH VIỆN NHÂN DÂN GIA ĐỊNH THÀNH PHỐ HỒ CHÍ MINH,"Số 1 Nơ Trang Long, phường 7, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01859,BỆNH VIỆN PHẠM NGỌC THẠCH,"120 Hồng Bàng, phường 12, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01863,BỆNH VIỆN PHỤ SẢN TỪ DŨ,"284 Cống Quỳnh, quận 1, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01873,BỆNH VIỆN QUẬN 10,"571 Sư Vạn Hạnh, phường 13, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01878,BỆNH VIỆN QUẬN GÒ VẤP,"641 Quang Trung, phường 11, quận Gò Vấp, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01898,BỆNH VIỆN QUỐC TẾ MỸ - AIH,"199 Nguyễn Hoàng, phường An Phú, quận 2, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01899,BỆNH VIỆN QUỐC TẾ ANH MINH,"16 Phan Văn Trị, phường 7, quận Gò Vấp, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01902,BỆNH VIỆN RĂNG HÀM MẶT TRUNG ƯƠNG TP HỒ CHÍ MINH,"201A Nguyễn Chí Thanh, phường 12, quận 5, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01910,BỆNH VIỆN THẨM MỸ EMCAS,"14/27 Hoàng Dư Khương, phường 12, quận 10, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01918,BỆNH VIỆN UNG BƯỚU THÀNH PHỐ HỒ CHÍ MINH ,"6 Nguyễn Huy Lượng, phường 14, quận Bình Thạnh, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01942,TRUNG TÂM Y TẾ HUYỆN CÀNG LONG,"Khóm 6, thị trấn Càng Long, huyện Càng Long, tỉnh Trà Vinh",TRÀ VINH,MD MEKONG
+H02047,TRUNG TÂM CẤP CỨU 115 PHÚ YÊN,"15 Nguyễn Hữu Thọ, Phường 9, TP Tuy Hoà, tỉnh Phú Yên",PHÚ YÊN,MD SOUTH
+H02057,TRUNG TÂM CHĂM SÓC SỨC KHỎE SINH SẢN,"957 Ba Tháng Hai, phường 7, quận 11, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H02074,PHÒNG KHÁM ĐA KHOA KHU VỰC BÌNH KHÁNH,"Xóm An Nghĩa, xã Bình Khánh, huyện Cần Giờ, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+DEMO-TTH,DEMO TAN THANH,"No. 15, Lot 3A- Trung Yen Urban Area, Trung Hoa Ward, Cau Giay District",HÀ NỘI,MD CENTRAL
+H00168,BỆNH VIỆN PHONG VÀ DA LIỄU TRUNG ƯƠNG QUY HÒA,"05A Chế Lan Viên, phường Ghềnh Ráng, thành phố Quy Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00169,BỆNH VIỆN QUÂN Y 13,"54 An Dương Vương, phường Nguyễn Văn Cừ, thành phố Quy Nhơn, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00181,TRUNG TÂM Y TẾ HUYỆN PHÙ MỸ,"244 Quang Trung, thị trấn Phù Mỹ, huyện Phù Mỹ, tỉnh Bình Định",BÌNH ĐỊNH,MD CENTRAL
+H00365,BỆNH VIỆN 199 - BỘ CÔNG AN,"216 Nguyễn Công Trứ, phường An Hải Đông, quận Sơn Trà, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00366,BỆNH VIỆN C ĐÀ NẴNG,"122 Hải Phòng, phường Thạch Thang, quận Hải Châu, Tp Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00368,BỆNH VIỆN CHỈNH HÌNH VÀ PHCN ĐÀ NẴNG,"95 Quang Trung, phường Thạch Thang, quận Hải Châu, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00377,BỆNH VIỆN ĐÀ NẴNG,"124 Hải Phòng, phường Thạch Thang, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00387,BỆNH VIỆN PHỤ SẢN NHI ĐÀ NẴNG,"402 Lê Văn Hiến, quận Ngũ Hành Sơn, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00390,BỆNH VIỆN QUÂN Y 17,"02 Nguyễn Hữu Thọ, phường Hòa Thuận Tây, quận Hải Châu, thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H00785,TRUNG TÂM Y TẾ QUẬN 4,"02 Lê Quốc Hưng, phường 13, quận 4, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01277,BỆNH VIỆN ĐA KHOA TỈNH NINH THUẬN,"Nguyễn Văn Cừ, phường Văn Hải, thành phố Phan Rang – Tháp Chàm, tỉnh Ninh Thuận",NINH THUẬN,MD CENTRAL
+H01366,BỆNH VIỆN ĐK KHU VỰC MIỀN NÚI PHÍA BẮC QUẢNG NAM,"107 Quang Trung, thị trấn Ái Nghĩa, huyện Đại Lộc, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01369,BỆNH VIỆN ĐA KHOA TỈNH QUẢNG NAM,"01 Nguyễn Du, An Mỹ, , thành phố Tam Kỳ, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01381,BỆNH VIỆN PHẠM NGỌC THẠCH QUẢNG NAM,"Đường Nguyễn Văn Trỗi, phường An Phú, thành phố Tam Kỳ, tỉnh Quảng Nam",QUẢNG NAM,MD CENTRAL
+H01412,BỆNH VIỆN ĐA KHOA KHU VỰC ĐẶNG THÙY TRÂM,"112 Phạm Văn Đồng, Tổ dân phố 6, phường Nguyễn Nghiêm, Thị xã Đức Phổ, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01418,TRUNG TÂM Y TẾ HUYỆN MỘ ĐỨC,"Thôn Phước Thịnh, Xã Đức Thạnh, huyện Mộ Đức, tỉnh Quảng Ngãi",QUẢNG NGÃI,MD CENTRAL
+H01708,BỆNH VIỆN ĐA KHOA BÌNH ĐIỀN,"Thôn Đông Hòa, xã Bình Tiến, thị xã Hương Trà, Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01717,BỆNH VIỆN TRƯỜNG ĐẠI HỌC Y DƯỢC HUẾ,"41-51 Nguyễn Huệ, Vĩnh Ninh, thành phố Huế, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01726,BỆNH VIỆN TRUNG ƯƠNG HUẾ,"16 Lê Lợi, thành phố Huế, tỉnh Thừa Thiên Huế",THỪA THIÊN–HUẾ,MD CENTRAL
+H01870,BỆNH VIỆN QUẬN 7,"101 Nguyễn Thị Thập, phường Tân Phú, quận 7, thành phố Hồ Chí Minh",HỒ CHÍ MINH,MD SOUTH
+H01085,TRUNG TÂM Y TẾ QUẬN LIÊN CHIỂU,"525 Tôn Đức Thắng, Hòa Khánh Nam, Liên Chiểu, Thành phố Đà Nẵng",ĐÀ NẴNG,MD CENTRAL
+H01086,BỆNH VIỆN ĐA KHOA HUYỆN NHƯ THANH,"Khu phố 3, Bến Sung, Như Thanh, Thanh Hóa",THANH HÓA,MD NORTH
