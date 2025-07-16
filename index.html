@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotation Form</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --info-color: #17a2b8; /* Added for potential info buttons */
+            --warning-color: #ffc107; /* Added for potential warning states */
+            --border-color: #e0e0e0;
+            --header-bg-color: #f8f9fa;
+            --table-header-bg: #e9ecef;
+            --light-bg-color: #fbfdff;
+            --dark-text-color: #343a40;
+            --light-text-color: #6f7478;
+            --padding-base: 10px 15px;
+            --margin-bottom-base: 20px;
+            --border-radius-base: 8px;
+            --box-shadow-light: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition-speed: 0.3s ease;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: var(--margin-bottom-base);
+            background-color: var(--header-bg-color);
+            padding: 25px 20px;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: var(--box-shadow-light);
+            color: var(--primary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: var(--border-radius-base);
+            box-shadow: var(--box-shadow-light);
+            flex-grow: 1; /* Allows main content to expand */
+        }
+
+        .form-group {
+            margin-bottom: var(--margin-bottom-base);
+        }
+        .action-buttons button {
+            background: var(--light-bg-color);
+            border: 1px solid var(--border-color);
+            color: var(--light-text-color);
+            padding: 6px 10px;
+            font-size: 0.9rem;
+            margin: 0 3px;
+            border-radius: var(--border-radius-base);
+            box-shadow: none; /* Remove shadow for small buttons */
+            
+            /* Thêm các thuộc tính này để cố định kích thước và căn giữa nội dung */
+            display: inline-flex; /* Sử dụng flexbox để căn giữa */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            gap: 5px; /* Khoảng cách giữa icon và text */
+            min-width: 90px; /* Đặt chiều rộng tối thiểu để các nút bằng nhau */
+            white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark-text-color);
+            font-size: 1.1em;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        .custom-autocomplete-input {
+            width: 100%;
+            padding: var(--padding-base);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-base);
+            box-sizing: border-box;
+            font-size: 1rem;
+            color: var(--dark-text-color);
+            background-color: var(--light-bg-color);
+            transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        select:focus,
+        .custom-autocomplete-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate; /* Use separate to allow border-radius on cells */
+            border-spacing: 0;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            table-layout: fixed;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border-radius: var(--border-radius-base);
+            overflow: hidden; /* Ensures rounded corners are visible */
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border-color);
+            padding: 12px 15px;
+            text-align: left;
+            word-wrap: break-word;
+            font-size: 0.95em;
+        }
+
+        thead th {
+            background-color: var(--table-header-bg);
+            font-weight: 600;
+            color: var(--dark-text-color);
+            border-top: none; /* Remove top border for a cleaner look */
+        }
+        
+        thead tr:first-child th:first-child {
+            border-top-left-radius: var(--border-radius-base);
+        }
+
+        thead tr:first-child th:last-child {
+            border-top-right-radius: var(--border-radius-base);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9fbfd;
+        }
+
+        tbody tr:hover {
+            background-color: #e6f7ff; /* Light blue on hover */
+            transition: background-color 0.2s ease;
+        }
+
+        tbody input {
+            width: calc(100% - 10px);
+            border: none;
+            padding: 5px;
+            margin: -5px; /* Adjust margin to fill cell */
+            background-color: transparent; /* Make input background transparent */
+            font-size: 0.95em;
+        }
+
+        tbody input:focus {
+            outline: 1px dashed var(--primary-color); /* Subtle focus for table inputs */
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: var(--border-radius-base);
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color var(--transition-speed), transform 0.1s ease, box-shadow var(--transition-speed);
+            margin-right: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button:last-child {
+            margin-right: 0;
+        }
+
+        button.add-row-btn {
+            background-color: var(--success-color);
+            color: white;
+        }
+
+        button.add-row-btn:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        button.send-btn {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        button.send-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        .action-buttons button {
+            background: var(--light-bg-color);
+            border: 1px solid var(--border-color);
+            color: var(--light-text-color);
+            padding: 6px 10px;
+            font-size: 0.9rem;
+            margin: 0 3px;
+            border-radius: var(--border-radius-base);
+            box-shadow: none; /* Remove shadow for small buttons */
+        }
+
+        .action-buttons button:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .action-buttons button[aria-label="Copy row"] {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .action-buttons button[aria-label="Copy row"]:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .action-buttons button[aria-label="Remove row"] {
+            color: var(--danger-color);
+            border-color: var(--danger-color);
+        }
+        .action-buttons button[aria-label="Remove row"]:hover {
+            background-color: var(--danger-color);
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 15px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Styles for jQuery UI Autocomplete */
+        .ui-autocomplete {
+            max-height: 250px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid var(--border-color);
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            border-radius: var(--border-radius-base);
+            z-index: 1000;
+        }
+        .ui-menu-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            list-style: none;
+            border-bottom: 1px solid #f0f0f0; /* Subtle separator */
+        }
+        .ui-menu-item:last-child {
+            border-bottom: none;
+        }
+        .ui-menu-item:hover,
+        .ui-menu-item.ui-state-active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color); /* Match border with background */
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            main {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr {
+                border: 1px solid var(--border-color);
+                margin-bottom: 15px;
+                border-radius: var(--border-radius-base);
+                overflow: hidden;
+            }
+
+            td {
+                border: none;
+                border-bottom: 1px solid var(--border-color);
+                position: relative;
+                padding-left: 50%;
+                text-align: right;
+            }
+
+            td:last-child {
+                border-bottom: none;
+            }
+
+            td:before {
+                position: absolute;
+                top: 0;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                text-align: left;
+                font-weight: 500;
+                color: var(--dark-text-color);
+                padding-top: 12px; /* Match td padding */
+                padding-bottom: 12px; /* Match td padding */
+            }
+
+            td:nth-of-type(1):before { content: "Code:"; }
+            td:nth-of-type(2):before { content: "Description:"; }
+            td:nth-of-type(3):before { content: "Quantity:"; }
+            td:nth-of-type(4):before { content: "Model:"; }
+            td:nth-of-type(5):before { content: "Note:"; }
+            td:nth-of-type(6):before { content: "Unit Price:"; }
+            td:nth-of-type(7):before { content: "Action:"; }
+
+            tbody input {
+                width: 100%;
+                text-align: right;
+            }
+
+            .action-buttons {
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 6px; /* Align with right-aligned content */
+            }
+
+            .button-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            button {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quotation Form</h1>
+    </header>
+
+    <main>
+        <form id="quotationForm" action="https://formsubmit.co/dat.nguyen@draeger.com" method="POST">
+            <div class="form-group">
+                <label for="scp_name">SCP Name:</label>
+                <select id="scp_name" name="scp_name" required>
+                    <option value="">-- Select SCP --</option>
+                    <option value="One">One</option>
+                    <option value="Indochina">Indochina</option>
+                    <option value="Innomed">Innomed</option>
+                    <option value="FYV">FYV</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="hospital_search">Hospital:</label>
+                <input type="text" id="hospital_search" name="hospital" class="custom-autocomplete-input" placeholder="Start typing to search hospital..." required />
+            </div>
+
+            <table id="itemsTable">
+                <thead>
+                    <tr>
+                        <th>Code</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Model</th>
+                        <th>Note</th>
+                        <th>Unit Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="formBody">
+                    <tr>
+                        <td><input type="text" name="code[]" required /></td>
+                        <td><input type="text" name="description[]" /></td>
+                        <td><input type="number" name="quantity[]" required min="1" /></td>
+                        <td><input type="text" name="model[]" required /></td>
+                        <td><input type="text" name="note[]" /></td>
+                        <td><input type="text" name="unit_price[]" /></td>
+                        <td class="action-buttons">
+                            <button type="button" class="copy-row-btn" aria-label="Copy row">📋 Copy</button>
+                            <button type="button" class="remove-row-btn" aria-label="Remove row">🗑️ Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="button-container">
+                <button type="button" class="add-row-btn">➕ Add Row</button>
+                <button type="submit" class="send-btn">📤 Send Quotation</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            const formBody = $('#formBody');
+            const addRowBtn = $('.add-row-btn');
+            let availableHospitals = []; // Mảng để lưu trữ tên bệnh viện
+
+            /**
+             * Tải dữ liệu bệnh viện từ file CSV và khởi tạo Autocomplete.
+             */
+            const loadHospitalsAndInitAutocomplete = async () => {
+                try {
+                    const response = await fetch('Hospital.csv'); // Đảm bảo file Hospital.csv nằm cùng thư mục hoặc có đường dẫn đúng
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const csv = await response.text();
+                    const lines = csv.split(/\r?\n/);
+                    
+                    const hospitals = new Set();
+                    lines.forEach(line => {
+                        const cols = line.split(",");
+                        // Giả sử tên bệnh viện nằm ở cột thứ 2 (index 1)
+                        if (cols[1]) { 
+                            const name = cols[1].trim();
+                            if (name) hospitals.add(name);
+                        }
+                    });
+
+                    availableHospitals = Array.from(hospitals).sort();
+
+                    // Khởi tạo jQuery UI Autocomplete
+                    $("#hospital_search").autocomplete({
+                        source: availableHospitals,
+                        minLength: 1, // Bắt đầu tìm kiếm sau khi gõ 1 ký tự
+                        select: function(event, ui) {
+                            // console.log("Selected hospital:", ui.item.value);
+                        }
+                    });
+
+                } catch (error) {
+                    console.error("Error loading Hospital.csv:", error);
+                    $("#hospital_search").attr("placeholder", "⚠️ Cannot load Hospital list. Please refresh or try again later.");
+                    $("#hospital_search").prop("disabled", true); // Vô hiệu hóa input nếu không tải được
+                }
+            };
+
+            /**
+             * Thêm một hàng mới vào bảng các mục.
+             */
+            const addRow = () => {
+                const firstRow = formBody.find('tr:first');
+                if (firstRow.length === 0) {
+                    // This case should ideally not happen if there's always at least one row on load.
+                    // But good to have a fallback or error message.
+                    console.error("No existing row to clone.");
+                    return;
+                }
+                const newRow = firstRow.clone(true); // Tham số true để copy cả event handlers và data
+                newRow.find('input').val(''); // Xóa giá trị của các input trong hàng mới
+                formBody.append(newRow);
+                updateRowEventListeners(newRow); // Gán lại event listeners cho hàng mới
+            };
+
+            /**
+             * Xóa một hàng khỏi bảng các mục. Không cho phép xóa hàng cuối cùng.
+             * @param {HTMLElement} button Nút đã kích hoạt hành động xóa.
+             */
+            const removeRow = (button) => {
+                const row = $(button).closest('tr');
+                if (formBody.find('tr').length > 1) {
+                    row.fadeOut(200, function() { // Fade out before removing
+                        $(this).remove();
+                    });
+                } else {
+                    alert("At least one item row is required for the quotation.");
+                }
+            };
+
+            /**
+             * Sao chép một hàng trong bảng các mục, đặt bản sao ngay sau hàng gốc.
+             * @param {HTMLElement} button Nút đã kích hoạt hành động sao chép.
+             */
+            const copyRow = (button) => {
+                const row = $(button).closest('tr');
+                const copy = row.clone(true); // Tham số true để copy cả event handlers và data
+                // Sao chép các giá trị hiện tại vào hàng mới
+                row.find('input').each(function(index) {
+                    copy.find('input').eq(index).val($(this).val());
+                });
+                row.after(copy); // Chèn bản sao sau hàng gốc
+                updateRowEventListeners(copy); // Gán lại event listeners cho hàng mới
+                copy.hide().fadeIn(200); // Fade in the new row
+            };
+
+            /**
+             * Gắn các trình xử lý sự kiện cho các nút hành động (copy/remove) trong một hàng cụ thể.
+             * Điều này rất quan trọng khi thêm các hàng mới để đảm bảo các nút của chúng hoạt động.
+             * @param {jQuery} rowObj Đối tượng jQuery của hàng để gắn các trình xử lý sự kiện.
+             */
+            const updateRowEventListeners = (rowObj) => {
+                rowObj.find('.copy-row-btn').off('click').on('click', function() {
+                    copyRow(this);
+                });
+                rowObj.find('.remove-row-btn').off('click').on('click', function() {
+                    removeRow(this);
+                });
+            };
+
+            // Khởi tạo các event listeners cho hàng đầu tiên (có sẵn khi tải trang)
+            updateRowEventListeners(formBody.find('tr:first'));
+
+            // Gắn event listener cho nút "Add Row"
+            addRowBtn.on('click', addRow);
+
+            // Tải dữ liệu bệnh viện và khởi tạo autocomplete
+            loadHospitalsAndInitAutocomplete();
+        });
+    </script>
+</body>
+</html>
