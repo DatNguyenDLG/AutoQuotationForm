@@ -38,6 +38,10 @@
                 <input type="text" id="hospital_search" name="hospital" class="custom-autocomplete-input" placeholder="Start typing to search hospital..." required />
             </div>
 
+            <div class="form-group">
+                <label for="cc_email">CC Email (tùy chọn):</label>
+                <input type="email" id="cc_email" name="_cc" placeholder="Nhập email để gửi bản sao" />
+            </div>
             <table id="itemsTable">
                 <thead>
                     <tr>
@@ -141,23 +145,23 @@
                 } else {
                     // Nếu không, clone hàng đầu tiên hoặc tạo hàng mới nếu chưa có hàng nào
                     if (firstRow.length === 0) { // Trường hợp bảng hoàn toàn trống
-                         // Tạo một hàng mẫu mới nếu không có hàng nào
-                        const templateHtml = `
-                            <tr>
-                                <td><input type="text" name="code[]" required /></td>
-                                <td><input type="text" name="description[]" /></td>
-                                <td><input type="number" name="quantity[]" required min="1" /></td>
-                                <td><input type="text" name="model[]" required /></td>
-                                <td><input type="text" name="note[]" /></td>
-                                <td><input type="text" name="unit_price[]" /></td>
-                                <td class="action-buttons">
-                                    <button type="button" class="copy-row-btn" aria-label="Copy row">📋 Copy</button>
-                                    <button type="button" class="remove-row-btn" aria-label="Remove row">🗑️ Remove</button>
-                                </td>
-                            </tr>
-                        `;
-                        rowToFill = $(templateHtml);
-                        formBody.append(rowToFill);
+                             // Tạo một hàng mẫu mới nếu không có hàng nào
+                            const templateHtml = `
+                                <tr>
+                                    <td><input type="text" name="code[]" required /></td>
+                                    <td><input type="text" name="description[]" /></td>
+                                    <td><input type="number" name="quantity[]" required min="1" /></td>
+                                    <td><input type="text" name="model[]" required /></td>
+                                    <td><input type="text" name="note[]" /></td>
+                                    <td><input type="text" name="unit_price[]" /></td>
+                                    <td class="action-buttons">
+                                        <button type="button" class="copy-row-btn" aria-label="Copy row">📋 Copy</button>
+                                        <button type="button" class="remove-row-btn" aria-label="Remove row">🗑️ Remove</button>
+                                    </td>
+                                </tr>
+                            `;
+                            rowToFill = $(templateHtml);
+                            formBody.append(rowToFill);
                     } else {
                         // Clone hàng đầu tiên để tạo hàng mới
                         rowToFill = firstRow.clone(true); 
@@ -288,8 +292,11 @@
 
                 // 4. Đặt lại giá trị của Hospital
                 $('#hospital_search').val('');
+                
+                // 5. Đặt lại giá trị của CC Email
+                $('#cc_email').val('');
 
-                // 5. Xóa nội dung textarea
+                // 6. Xóa nội dung textarea
                 bulkPasteTextArea.val('');
 
                 // Cập nhật lại event listeners cho hàng đầu tiên (đảm bảo vẫn hoạt động)
