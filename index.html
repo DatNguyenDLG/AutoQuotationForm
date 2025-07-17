@@ -70,25 +70,7 @@
         .form-group {
             margin-bottom: var(--margin-bottom-base);
         }
-        .action-buttons button {
-            background: var(--light-bg-color);
-            border: 1px solid var(--border-color);
-            color: var(--light-text-color);
-            padding: 6px 10px;
-            font-size: 0.9rem;
-            margin: 0 3px;
-            border-radius: var(--border-radius-base);
-            box-shadow: none; /* Remove shadow for small buttons */
-            
-            /* Thêm các thuộc tính này để cố định kích thước và căn giữa nội dung */
-            display: inline-flex; /* Sử dụng flexbox để căn giữa */
-            align-items: center; /* Căn giữa theo chiều dọc */
-            justify-content: center; /* Căn giữa theo chiều ngang */
-            gap: 5px; /* Khoảng cách giữa icon và text */
-            min-width: 90px; /* Đặt chiều rộng tối thiểu để các nút bằng nhau */
-            white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
-        }
-
+        
         label {
             display: block;
             margin-bottom: 8px;
@@ -100,7 +82,8 @@
         input[type="text"],
         input[type="number"],
         select,
-        .custom-autocomplete-input {
+        .custom-autocomplete-input,
+        textarea { /* Added textarea to styling */
             width: 100%;
             padding: var(--padding-base);
             border: 1px solid var(--border-color);
@@ -115,7 +98,8 @@
         input[type="text"]:focus,
         input[type="number"]:focus,
         select:focus,
-        .custom-autocomplete-input:focus {
+        .custom-autocomplete-input:focus,
+        textarea:focus { /* Added textarea focus */
             outline: none;
             border-color: var(--primary-color);
             box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -206,15 +190,26 @@
             box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
         }
 
-        button.send-btn {
+        button.send-btn, button.paste-btn { /* Added paste-btn here */
             background-color: var(--primary-color);
             color: white;
         }
 
-        button.send-btn:hover {
+        button.send-btn:hover, button.paste-btn:hover { /* Added paste-btn here */
             background-color: #0056b3;
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        button.secondary-btn {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        button.secondary-btn:hover {
+            background-color: #5a6268; /* Một chút tối hơn màu secondary */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(108, 117, 125, 0.2);
         }
 
         .action-buttons button {
@@ -226,6 +221,14 @@
             margin: 0 3px;
             border-radius: var(--border-radius-base);
             box-shadow: none; /* Remove shadow for small buttons */
+            
+            /* Thêm các thuộc tính này để cố định kích thước và căn giữa nội dung */
+            display: inline-flex; /* Sử dụng flexbox để căn giữa */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            gap: 5px; /* Khoảng cách giữa icon và text */
+            min-width: 90px; /* Đặt chiều rộng tối thiểu để các nút bằng nhau */
+            white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
         }
 
         .action-buttons button:hover {
@@ -379,6 +382,11 @@
     </header>
 
     <main>
+      <div style="margin-bottom: 1.5rem;">
+        <label><strong>Dán dữ liệu từ Excel vào đây:</strong></label>
+        <textarea id="bulkPaste" rows="5" placeholder="Mỗi dòng là một mục, các cột cách nhau bởi dấu Tab (Code, Description, Quantity, Model, Note, Unit Price)"></textarea>
+        <button type="button" id="pasteDataButton" class="paste-btn" style="margin-top: 10px;">➕ Thêm dữ liệu từ bảng</button>
+      </div>
         <form id="quotationForm" action="https://formsubmit.co/dat.nguyen@draeger.com" method="POST">
             <div class="form-group">
                 <label for="scp_name">SCP Name:</label>
@@ -401,7 +409,7 @@
                     <tr>
                         <th>Code</th>
                         <th>Description</th>
-                        <th>Quantity</th>
+                        <th>Hàng tồn kho</th>
                         <th>Model</th>
                         <th>Note</th>
                         <th>Unit Price</th>
@@ -426,6 +434,7 @@
 
             <div class="button-container">
                 <button type="button" class="add-row-btn">➕ Add Row</button>
+                <button type="button" id="resetFormBtn" class="secondary-btn">🔄 Reset Form</button>
                 <button type="submit" class="send-btn">📤 Send Quotation</button>
             </div>
         </form>
@@ -437,14 +446,18 @@
         $(document).ready(function() {
             const formBody = $('#formBody');
             const addRowBtn = $('.add-row-btn');
-            let availableHospitals = []; // Mảng để lưu trữ tên bệnh viện
+            const pasteDataBtn = $('#pasteDataButton'); 
+            const bulkPasteTextArea = $('#bulkPaste'); 
+            const resetFormBtn = $('#resetFormBtn'); 
+            
+            let availableHospitals = []; 
 
             /**
              * Tải dữ liệu bệnh viện từ file CSV và khởi tạo Autocomplete.
              */
             const loadHospitalsAndInitAutocomplete = async () => {
                 try {
-                    const response = await fetch('Hospital.csv'); // Đảm bảo file Hospital.csv nằm cùng thư mục hoặc có đường dẫn đúng
+                    const response = await fetch('Hospital.csv'); 
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
@@ -454,7 +467,6 @@
                     const hospitals = new Set();
                     lines.forEach(line => {
                         const cols = line.split(",");
-                        // Giả sử tên bệnh viện nằm ở cột thứ 2 (index 1)
                         if (cols[1]) { 
                             const name = cols[1].trim();
                             if (name) hospitals.add(name);
@@ -463,39 +475,117 @@
 
                     availableHospitals = Array.from(hospitals).sort();
 
-                    // Khởi tạo jQuery UI Autocomplete
                     $("#hospital_search").autocomplete({
                         source: availableHospitals,
-                        minLength: 1, // Bắt đầu tìm kiếm sau khi gõ 1 ký tự
+                        minLength: 1, 
                         select: function(event, ui) {
-                            // console.log("Selected hospital:", ui.item.value);
+                            // Logic khi chọn bệnh viện
                         }
                     });
 
                 } catch (error) {
                     console.error("Error loading Hospital.csv:", error);
                     $("#hospital_search").attr("placeholder", "⚠️ Cannot load Hospital list. Please refresh or try again later.");
-                    $("#hospital_search").prop("disabled", true); // Vô hiệu hóa input nếu không tải được
+                    $("#hospital_search").prop("disabled", true); 
                 }
             };
 
             /**
-             * Thêm một hàng mới vào bảng các mục.
+             * Thêm một hàng mới vào bảng các mục, hoặc điền dữ liệu vào hàng trống đầu tiên.
+             * @param {Object} [data] - Dữ liệu để điền vào hàng mới (tùy chọn).
              */
-            const addRow = () => {
+            const addRow = (data = {}) => {
+                let rowToFill;
                 const firstRow = formBody.find('tr:first');
-                if (firstRow.length === 0) {
-                    // This case should ideally not happen if there's always at least one row on load.
-                    // But good to have a fallback or error message.
-                    console.error("No existing row to clone.");
-                    return;
-                }
-                const newRow = firstRow.clone(true); // Tham số true để copy cả event handlers và data
-                newRow.find('input').val(''); // Xóa giá trị của các input trong hàng mới
-                formBody.append(newRow);
-                updateRowEventListeners(newRow); // Gán lại event listeners cho hàng mới
-            };
 
+                // Kiểm tra nếu hàng đầu tiên tồn tại và tất cả các input của nó đều trống
+                const isFirstRowEmpty = firstRow.length > 0 && firstRow.find('input').toArray().every(input => $(input).val().trim() === '');
+
+                if (isFirstRowEmpty && Object.keys(data).length > 0) {
+                    // Nếu hàng đầu tiên trống và có dữ liệu để điền, sử dụng hàng đó
+                    rowToFill = firstRow;
+                } else {
+                    // Nếu không, clone hàng đầu tiên hoặc tạo hàng mới nếu chưa có hàng nào
+                    if (firstRow.length === 0) { // Trường hợp bảng hoàn toàn trống
+                         // Tạo một hàng mẫu mới nếu không có hàng nào
+                        const templateHtml = `
+                            <tr>
+                                <td><input type="text" name="code[]" required /></td>
+                                <td><input type="text" name="description[]" /></td>
+                                <td><input type="number" name="quantity[]" required min="1" /></td>
+                                <td><input type="text" name="model[]" required /></td>
+                                <td><input type="text" name="note[]" /></td>
+                                <td><input type="text" name="unit_price[]" /></td>
+                                <td class="action-buttons">
+                                    <button type="button" class="copy-row-btn" aria-label="Copy row">📋 Copy</button>
+                                    <button type="button" class="remove-row-btn" aria-label="Remove row">🗑️ Remove</button>
+                                </td>
+                            </tr>
+                        `;
+                        rowToFill = $(templateHtml);
+                        formBody.append(rowToFill);
+                    } else {
+                        // Clone hàng đầu tiên để tạo hàng mới
+                        rowToFill = firstRow.clone(true); 
+                        rowToFill.find('input').val(''); // Xóa giá trị của các input trong hàng mới được clone
+                        formBody.append(rowToFill);
+                    }
+                }
+
+                // Điền dữ liệu vào hàng được chọn/tạo
+                if (data.code) rowToFill.find("input[name='code[]']").val(data.code);
+                if (data.description) rowToFill.find("input[name='description[]']").val(data.description);
+                if (data.quantity) rowToFill.find("input[name='quantity[]']").val(data.quantity);
+                if (data.model) rowToFill.find("input[name='model[]']").val(data.model);
+                if (data.note) rowToFill.find("input[name='note[]']").val(data.note);
+                if (data.unit_price) rowToFill.find("input[name='unit_price[]']").val(data.unit_price);
+                
+                updateRowEventListeners(rowToFill); 
+                rowToFill.hide().fadeIn(200); 
+            };
+            
+            /**
+             * Xử lý dán dữ liệu từ Excel vào bảng.
+             */
+            const handleBulkPaste = () => {
+                const text = bulkPasteTextArea.val().trim();
+                if (!text) return;
+
+                const rows = text.split(/\r?\n/); 
+                let firstRowFilled = false; 
+
+                rows.forEach((rowText, index) => {
+                    const cells = rowText.split("\t"); 
+                    const data = {
+                        code: cells[0] ? cells[0].trim() : '',
+                        description: cells[1] ? cells[1].trim() : '',
+                        quantity: cells[2] ? cells[2].trim() : '',
+                        model: cells[3] ? cells[3].trim() : '',
+                        note: cells[4] ? cells[4].trim() : '',
+                        unit_price: cells[5] ? cells[5].trim() : ''
+                    };
+
+                    // Chỉ thêm hàng mới nếu có ít nhất dữ liệu Code hoặc Quantity
+                    if (data.code || data.quantity) {
+                        if (!firstRowFilled && formBody.find('tr:first').find('input[name="code[]"]').first().val() === '') {
+                             const targetRow = formBody.find('tr:first');
+                             targetRow.find("input[name='code[]']").val(data.code);
+                             targetRow.find("input[name='description[]']").val(data.description);
+                             targetRow.find("input[name='quantity[]']").val(data.quantity);
+                             targetRow.find("input[name='model[]']").val(data.model);
+                             targetRow.find("input[name='note[]']").val(data.note);
+                             targetRow.find("input[name='unit_price[]']").val(data.unit_price);
+                             updateRowEventListeners(targetRow); 
+                             firstRowFilled = true; 
+                        } else {
+                            addRow(data);
+                        }
+                    }
+                });
+
+                bulkPasteTextArea.val(''); 
+            };
+            
             /**
              * Xóa một hàng khỏi bảng các mục. Không cho phép xóa hàng cuối cùng.
              * @param {HTMLElement} button Nút đã kích hoạt hành động xóa.
@@ -503,11 +593,11 @@
             const removeRow = (button) => {
                 const row = $(button).closest('tr');
                 if (formBody.find('tr').length > 1) {
-                    row.fadeOut(200, function() { // Fade out before removing
+                    row.fadeOut(200, function() { 
                         $(this).remove();
                     });
                 } else {
-                    alert("At least one item row is required for the quotation.");
+                    alert("Cần ít nhất một hàng trong bảng báo giá.");
                 }
             };
 
@@ -517,14 +607,14 @@
              */
             const copyRow = (button) => {
                 const row = $(button).closest('tr');
-                const copy = row.clone(true); // Tham số true để copy cả event handlers và data
-                // Sao chép các giá trị hiện tại vào hàng mới
+                const copy = row.clone(true); 
+                
                 row.find('input').each(function(index) {
                     copy.find('input').eq(index).val($(this).val());
                 });
-                row.after(copy); // Chèn bản sao sau hàng gốc
-                updateRowEventListeners(copy); // Gán lại event listeners cho hàng mới
-                copy.hide().fadeIn(200); // Fade in the new row
+                row.after(copy); 
+                updateRowEventListeners(copy); 
+                copy.hide().fadeIn(200); 
             };
 
             /**
@@ -541,11 +631,49 @@
                 });
             };
 
+            /**
+             * Reset toàn bộ form về trạng thái ban đầu.
+             */
+            const resetForm = () => {
+                // Xác nhận với người dùng trước khi reset
+                if (!confirm("Bạn có chắc chắn muốn xóa toàn bộ dữ liệu form và bắt đầu lại?")) {
+                    return; // Nếu không xác nhận, thoát khỏi hàm
+                }
+
+                // 1. Xóa tất cả các hàng trừ hàng đầu tiên
+                formBody.find('tr:not(:first)').remove();
+
+                // 2. Đặt lại giá trị của hàng đầu tiên
+                const firstRow = formBody.find('tr:first');
+                firstRow.find('input').val('');
+                // Đảm bảo các input required không bị trống khi reset, nếu có thể
+                // Ví dụ: firstRow.find('input[name="quantity[]"]').val('1'); // Nếu muốn mặc định quantity là 1
+
+                // 3. Đặt lại giá trị của SCP Name
+                $('#scp_name').val('');
+
+                // 4. Đặt lại giá trị của Hospital
+                $('#hospital_search').val('');
+
+                // 5. Xóa nội dung textarea
+                bulkPasteTextArea.val('');
+
+                // Cập nhật lại event listeners cho hàng đầu tiên (đảm bảo vẫn hoạt động)
+                updateRowEventListeners(firstRow); 
+                alert("Form đã được reset!");
+            };
+
             // Khởi tạo các event listeners cho hàng đầu tiên (có sẵn khi tải trang)
             updateRowEventListeners(formBody.find('tr:first'));
 
             // Gắn event listener cho nút "Add Row"
             addRowBtn.on('click', addRow);
+            
+            // Gắn event listener cho nút "Thêm dữ liệu từ bảng"
+            pasteDataBtn.on('click', handleBulkPaste);
+
+            // Gắn event listener cho nút "Reset Form"
+            resetFormBtn.on('click', resetForm);
 
             // Tải dữ liệu bệnh viện và khởi tạo autocomplete
             loadHospitalsAndInitAutocomplete();
