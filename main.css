@@ -1,0 +1,365 @@
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --success-color: #28a745;
+            --danger-color: #dc3545;
+            --info-color: #17a2b8; /* Added for potential info buttons */
+            --warning-color: #ffc107; /* Added for potential warning states */
+            --border-color: #e0e0e0;
+            --header-bg-color: #f8f9fa;
+            --table-header-bg: #e9ecef;
+            --light-bg-color: #fbfdff;
+            --dark-text-color: #343a40;
+            --light-text-color: #6f7478;
+            --padding-base: 10px 15px;
+            --margin-bottom-base: 20px;
+            --border-radius-base: 8px;
+            --box-shadow-light: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition-speed: 0.3s ease;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text-color);
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: var(--margin-bottom-base);
+            background-color: var(--header-bg-color);
+            padding: 25px 20px;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: var(--box-shadow-light);
+            color: var(--primary-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: var(--border-radius-base);
+            box-shadow: var(--box-shadow-light);
+            flex-grow: 1; /* Allows main content to expand */
+        }
+
+        .form-group {
+            margin-bottom: var(--margin-bottom-base);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--dark-text-color);
+            font-size: 1.1em;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select,
+        .custom-autocomplete-input,
+        textarea { /* Added textarea to styling */
+            width: 100%;
+            padding: var(--padding-base);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius-base);
+            box-sizing: border-box;
+            font-size: 1rem;
+            color: var(--dark-text-color);
+            background-color: var(--light-bg-color);
+            transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus,
+        select:focus,
+        .custom-autocomplete-input:focus,
+        textarea:focus { /* Added textarea focus */
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate; /* Use separate to allow border-radius on cells */
+            border-spacing: 0;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            table-layout: fixed;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            border-radius: var(--border-radius-base);
+            overflow: hidden; /* Ensures rounded corners are visible */
+        }
+
+        th,
+        td {
+            border: 1px solid var(--border-color);
+            padding: 12px 15px;
+            text-align: left;
+            word-wrap: break-word;
+            font-size: 0.95em;
+        }
+
+        thead th {
+            background-color: var(--table-header-bg);
+            font-weight: 600;
+            color: var(--dark-text-color);
+            border-top: none; /* Remove top border for a cleaner look */
+        }
+        
+        thead tr:first-child th:first-child {
+            border-top-left-radius: var(--border-radius-base);
+        }
+
+        thead tr:first-child th:last-child {
+            border-top-right-radius: var(--border-radius-base);
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9fbfd;
+        }
+
+        tbody tr:hover {
+            background-color: #e6f7ff; /* Light blue on hover */
+            transition: background-color 0.2s ease;
+        }
+
+        tbody input {
+            width: calc(100% - 10px);
+            border: none;
+            padding: 5px;
+            margin: -5px; /* Adjust margin to fill cell */
+            background-color: transparent; /* Make input background transparent */
+            font-size: 0.95em;
+        }
+
+        tbody input:focus {
+            outline: 1px dashed var(--primary-color); /* Subtle focus for table inputs */
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: var(--border-radius-base);
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: background-color var(--transition-speed), transform 0.1s ease, box-shadow var(--transition-speed);
+            margin-right: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button:last-child {
+            margin-right: 0;
+        }
+
+        button.add-row-btn {
+            background-color: var(--success-color);
+            color: white;
+        }
+
+        button.add-row-btn:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        button.send-btn, button.paste-btn { /* Added paste-btn here */
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        button.send-btn:hover, button.paste-btn:hover { /* Added paste-btn here */
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        button.secondary-btn {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        button.secondary-btn:hover {
+            background-color: #5a6268; /* Một chút tối hơn màu secondary */
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(108, 117, 125, 0.2);
+        }
+
+        .action-buttons button {
+            background: var(--light-bg-color);
+            border: 1px solid var(--border-color);
+            color: var(--light-text-color);
+            padding: 6px 10px;
+            font-size: 0.9rem;
+            margin: 0 3px;
+            border-radius: var(--border-radius-base);
+            box-shadow: none; /* Remove shadow for small buttons */
+            
+            /* Thêm các thuộc tính này để cố định kích thước và căn giữa nội dung */
+            display: inline-flex; /* Sử dụng flexbox để căn giữa */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            justify-content: center; /* Căn giữa theo chiều ngang */
+            gap: 5px; /* Khoảng cách giữa icon và text */
+            min-width: 90px; /* Đặt chiều rộng tối thiểu để các nút bằng nhau */
+            white-space: nowrap; /* Ngăn không cho văn bản xuống dòng */
+        }
+
+        .action-buttons button:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .action-buttons button[aria-label="Copy row"] {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .action-buttons button[aria-label="Copy row"]:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .action-buttons button[aria-label="Remove row"] {
+            color: var(--danger-color);
+            border-color: var(--danger-color);
+        }
+        .action-buttons button[aria-label="Remove row"]:hover {
+            background-color: var(--danger-color);
+            color: white;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 15px;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Styles for jQuery UI Autocomplete */
+        .ui-autocomplete {
+            max-height: 250px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            border: 1px solid var(--border-color);
+            background-color: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            border-radius: var(--border-radius-base);
+            z-index: 1000;
+        }
+        .ui-menu-item {
+            padding: 10px 15px;
+            cursor: pointer;
+            list-style: none;
+            border-bottom: 1px solid #f0f0f0; /* Subtle separator */
+        }
+        .ui-menu-item:last-child {
+            border-bottom: none;
+        }
+        .ui-menu-item:hover,
+        .ui-menu-item.ui-state-active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color); /* Match border with background */
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            main {
+                padding: 20px;
+                margin: 20px auto;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr {
+                border: 1px solid var(--border-color);
+                margin-bottom: 15px;
+                border-radius: var(--border-radius-base);
+                overflow: hidden;
+            }
+
+            td {
+                border: none;
+                border-bottom: 1px solid var(--border-color);
+                position: relative;
+                padding-left: 50%;
+                text-align: right;
+            }
+
+            td:last-child {
+                border-bottom: none;
+            }
+
+            td:before {
+                position: absolute;
+                top: 0;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                text-align: left;
+                font-weight: 500;
+                color: var(--dark-text-color);
+                padding-top: 12px; /* Match td padding */
+                padding-bottom: 12px; /* Match td padding */
+            }
+
+            td:nth-of-type(1):before { content: "Code:"; }
+            td:nth-of-type(2):before { content: "Description:"; }
+            td:nth-of-type(3):before { content: "Quantity:"; }
+            td:nth-of-type(4):before { content: "Model:"; }
+            td:nth-of-type(5):before { content: "Note:"; }
+            td:nth-of-type(6):before { content: "Unit Price:"; }
+            td:nth-of-type(7):before { content: "Action:"; }
+
+            tbody input {
+                width: 100%;
+                text-align: right;
+            }
+
+            .action-buttons {
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 6px; /* Align with right-aligned content */
+            }
+
+            .button-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            button {
+                width: 100%;
+                margin-right: 0;
+            }
+        }
